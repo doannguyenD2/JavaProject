@@ -30,6 +30,7 @@ public class MainForm extends javax.swing.JFrame {
     private void initComponents() {
 
         jFrame1 = new javax.swing.JFrame();
+        jFrame2 = new javax.swing.JFrame();
         jTabbedPane10 = new javax.swing.JTabbedPane();
         jPanel1 = new javax.swing.JPanel();
         jTabbedPane11 = new javax.swing.JTabbedPane();
@@ -66,6 +67,17 @@ public class MainForm extends javax.swing.JFrame {
         );
         jFrame1Layout.setVerticalGroup(
             jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout jFrame2Layout = new javax.swing.GroupLayout(jFrame2.getContentPane());
+        jFrame2.getContentPane().setLayout(jFrame2Layout);
+        jFrame2Layout.setHorizontalGroup(
+            jFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        jFrame2Layout.setVerticalGroup(
+            jFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 300, Short.MAX_VALUE)
         );
 
@@ -293,6 +305,11 @@ public class MainForm extends javax.swing.JFrame {
                 ktTongHopComponentShown(evt);
             }
         });
+        ktTongHop.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ktTongHopActionPerformed(evt);
+            }
+        });
 
         ktHinhHocPhang.setText("Hình Học Phẳng");
         ktHinhHocPhang.setMaximumSize(new java.awt.Dimension(151, 25));
@@ -370,7 +387,7 @@ public class MainForm extends javax.swing.JFrame {
     private void banKinhActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_banKinhActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_banKinhActionPerformed
-
+   
     private void tinhActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tinhActionPerformed
             double x= Double.parseDouble(banKinh.getText());
             double dt=0;
@@ -385,7 +402,8 @@ public class MainForm extends javax.swing.JFrame {
     }//GEN-LAST:event_tinhActionPerformed
 
     private void ktTongHopComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_ktTongHopComponentShown
-        // TODO add your handling code here:
+       
+      
     }//GEN-LAST:event_ktTongHopComponentShown
 
     private void ktHinhHocPhangComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_ktHinhHocPhangComponentShown
@@ -406,6 +424,12 @@ public class MainForm extends javax.swing.JFrame {
             k.setVisible(true);
         }// TODO add your handling code here:
     }//GEN-LAST:event_ktHinhHocPhangActionPerformed
+
+    private void ktTongHopActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktTongHopActionPerformed
+      
+      KTTriNho a= new KTTriNho();
+      a.setVisible(true);
+    }//GEN-LAST:event_ktTongHopActionPerformed
 
     /**
      * @param args the command line arguments
@@ -449,6 +473,7 @@ public class MainForm extends javax.swing.JFrame {
     private javax.swing.JLabel dTich;
     private javax.swing.JButton jButton2;
     private javax.swing.JFrame jFrame1;
+    private javax.swing.JFrame jFrame2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
