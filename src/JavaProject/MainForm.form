@@ -435,11 +435,11 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="ktHinhHocPhang" pref="158" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="ktSoHoc" max="32767" attributes="0"/>
+                          <Component id="ktHinhHocPhang" pref="151" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="18" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="ktHinhHocKG" max="32767" attributes="0"/>
                           <Component id="ktTongHop" max="32767" attributes="0"/>
@@ -457,11 +457,11 @@
                           <Component id="ktHinhHocKG" alignment="3" min="-2" pref="149" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="ktSoHoc" min="-2" pref="149" max="-2" attributes="0"/>
-                          <Component id="ktTongHop" min="-2" pref="149" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ktSoHoc" alignment="3" min="-2" pref="149" max="-2" attributes="0"/>
+                          <Component id="ktTongHop" alignment="3" min="-2" pref="149" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="41" max="32767" attributes="0"/>
+                      <EmptySpace pref="42" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -496,6 +496,7 @@
               </Properties>
               <Events>
                 <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="ktSoHocComponentShown"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ktSoHocActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="ktHinhHocKG">
