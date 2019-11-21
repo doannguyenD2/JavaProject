@@ -427,7 +427,7 @@ public class MainForm extends javax.swing.JFrame {
 
     private void ktTongHopActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktTongHopActionPerformed
       
-      KTTriNho a= new KTTriNho();
+      BrainTranning a= new BrainTranning();
       a.setVisible(true);
     }//GEN-LAST:event_ktTongHopActionPerformed
 

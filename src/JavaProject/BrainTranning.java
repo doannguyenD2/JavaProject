@@ -62,9 +62,8 @@ public class BrainTranning extends javax.swing.JFrame {
                 status.setText("The number is "+a);  
        }
                 }
-              
             }                  
-            }
+                }
         }
     
     
@@ -185,7 +184,7 @@ public class BrainTranning extends javax.swing.JFrame {
     }//GEN-LAST:event_okActionPerformed
 
     private void inputKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_inputKeyReleased
-       
+
        try{
        int autoCheck=Integer.parseInt(input.getText());
        if(autoCheck==a&&timeEasy<=10){     
@@ -203,8 +202,7 @@ public class BrainTranning extends javax.swing.JFrame {
         input.setText("");
     }//GEN-LAST:event_inputKeyReleased
     }
-   
-    
+ 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
