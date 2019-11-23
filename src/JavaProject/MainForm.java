@@ -5,7 +5,8 @@
  */
 package JavaProject;
 
-import javax.swing.JFrame;
+import java.math.BigInteger;
+import javax.swing.*;
 
 /**
  *
@@ -52,7 +53,20 @@ public class MainForm extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jTabbedPane17 = new javax.swing.JTabbedPane();
         jPanel11 = new javax.swing.JPanel();
+        firstNumber = new javax.swing.JTextField();
+        secondNumber = new javax.swing.JTextField();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        ansTextArea = new javax.swing.JTextArea();
+        signComboBox = new javax.swing.JComboBox<>();
         jPanel12 = new javax.swing.JPanel();
+        base2Btn = new javax.swing.JLabel();
+        base2TextField = new javax.swing.JTextField();
+        base10TextField = new javax.swing.JTextField();
+        base8TextField = new javax.swing.JTextField();
+        base16TextField = new javax.swing.JTextField();
+        base10Btn = new javax.swing.JLabel();
+        base8Btn = new javax.swing.JLabel();
+        base16Btn = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         ktTongHop = new javax.swing.JButton();
         ktHinhHocPhang = new javax.swing.JButton();
@@ -130,12 +144,12 @@ public class MainForm extends javax.swing.JFrame {
                 .addGroup(jPanel4Layout.createSequentialGroup()
                     .addGap(70, 70, 70)
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(199, Short.MAX_VALUE)))
+                    .addContainerGap(218, Short.MAX_VALUE)))
             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel4Layout.createSequentialGroup()
                     .addGap(79, 79, 79)
                     .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(190, Short.MAX_VALUE)))
+                    .addContainerGap(209, Short.MAX_VALUE)))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -171,7 +185,7 @@ public class MainForm extends javax.swing.JFrame {
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 381, Short.MAX_VALUE)
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -184,7 +198,7 @@ public class MainForm extends javax.swing.JFrame {
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 381, Short.MAX_VALUE)
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -197,7 +211,7 @@ public class MainForm extends javax.swing.JFrame {
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 381, Short.MAX_VALUE)
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -210,7 +224,7 @@ public class MainForm extends javax.swing.JFrame {
         jPanel8.setLayout(jPanel8Layout);
         jPanel8Layout.setHorizontalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 381, Short.MAX_VALUE)
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -223,7 +237,7 @@ public class MainForm extends javax.swing.JFrame {
         jPanel9.setLayout(jPanel9Layout);
         jPanel9Layout.setHorizontalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 381, Short.MAX_VALUE)
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -236,7 +250,7 @@ public class MainForm extends javax.swing.JFrame {
         jPanel10.setLayout(jPanel10Layout);
         jPanel10Layout.setHorizontalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 381, Short.MAX_VALUE)
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         jPanel10Layout.setVerticalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -258,31 +272,175 @@ public class MainForm extends javax.swing.JFrame {
 
         jTabbedPane10.addTab("Hình Học", jPanel1);
 
+        firstNumber.setText("Số thứ nhất");
+        firstNumber.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                firstNumberFocusGained(evt);
+            }
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                firstNumberFocusLost(evt);
+            }
+        });
+        firstNumber.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                firstNumberKeyReleased(evt);
+            }
+        });
+
+        secondNumber.setText("Số thứ hai");
+        secondNumber.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                secondNumberFocusGained(evt);
+            }
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                secondNumberFocusLost(evt);
+            }
+        });
+        secondNumber.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                secondNumberKeyReleased(evt);
+            }
+        });
+
+        ansTextArea.setColumns(20);
+        ansTextArea.setLineWrap(true);
+        ansTextArea.setRows(5);
+        ansTextArea.setText("Kết quả\n");
+        ansTextArea.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                ansTextAreaFocusGained(evt);
+            }
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                ansTextAreaFocusLost(evt);
+            }
+        });
+        jScrollPane1.setViewportView(ansTextArea);
+
+        signComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "","+", "-", "x", "÷", "%" }));
+        signComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                signComboBoxActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
         jPanel11Layout.setHorizontalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 381, Short.MAX_VALUE)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1)
+                    .addGroup(jPanel11Layout.createSequentialGroup()
+                        .addComponent(firstNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(signComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(secondNumber, javax.swing.GroupLayout.DEFAULT_SIZE, 148, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         jPanel11Layout.setVerticalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 358, Short.MAX_VALUE)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addGap(53, 53, 53)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(firstNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(signComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(secondNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 244, Short.MAX_VALUE)
+                .addGap(15, 15, 15))
         );
 
         jTabbedPane17.addTab("Tính toán", jPanel11);
+
+        base2Btn.setText("Cơ số 2");
+
+        base2TextField.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                base2TextFieldKeyReleased(evt);
+            }
+        });
+
+        base10TextField.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                base10TextFieldKeyReleased(evt);
+            }
+        });
+
+        base8TextField.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                base8TextFieldKeyReleased(evt);
+            }
+        });
+
+        base16TextField.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                base16TextFieldKeyReleased(evt);
+            }
+        });
+
+        base10Btn.setText("Cơ số 10");
+
+        base8Btn.setText("Cơ số 8");
+
+        base16Btn.setText("Cơ số 16");
 
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
         jPanel12Layout.setHorizontalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 381, Short.MAX_VALUE)
-        );
-        jPanel12Layout.setVerticalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 358, Short.MAX_VALUE)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addGap(61, 61, 61)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addComponent(base2Btn)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 221, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
+                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(base10Btn)
+                            .addComponent(base8Btn)
+                            .addComponent(base16Btn))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(base16TextField, javax.swing.GroupLayout.DEFAULT_SIZE, 164, Short.MAX_VALUE)
+                            .addComponent(base2TextField, javax.swing.GroupLayout.DEFAULT_SIZE, 164, Short.MAX_VALUE)
+                            .addComponent(base10TextField)
+                            .addComponent(base8TextField))))
+                .addGap(61, 61, 61))
         );
 
-        jTabbedPane17.addTab("Chuyển đổi sang dạng số khác", jPanel12);
+        jPanel12Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {base10TextField, base16TextField, base2TextField, base8TextField});
+
+        jPanel12Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {base10Btn, base16Btn, base2Btn, base8Btn});
+
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addGap(61, 61, 61)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(base2Btn)
+                    .addComponent(base2TextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(31, 31, 31)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(base10Btn)
+                    .addComponent(base10TextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(27, 27, 27)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(base8Btn)
+                    .addComponent(base8TextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(33, 33, 33)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(base16Btn)
+                    .addComponent(base16TextField, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(46, Short.MAX_VALUE))
+        );
+
+        jPanel12Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {base10TextField, base16TextField, base2TextField, base8TextField});
+
+        jPanel12Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {base10Btn, base16Btn, base2Btn, base8Btn});
+
+        jTabbedPane17.addTab("Chuyển đổi cơ số", jPanel12);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -348,7 +506,7 @@ public class MainForm extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(ktHinhHocPhang, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE)
                     .addComponent(ktSoHoc, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(ktHinhHocKG, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(ktTongHop, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -427,10 +585,166 @@ public class MainForm extends javax.swing.JFrame {
 
     private void ktTongHopActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktTongHopActionPerformed
       
-      KTTriNho a= new KTTriNho();
-      a.setVisible(true);
+      
     }//GEN-LAST:event_ktTongHopActionPerformed
 
+    public static String baseConvert(String n,int src,int dest){
+        return Integer.toString(Integer.parseInt(n, src),dest); 
+    }
+    
+    public void setBaseTextField(JTextField j,int base){
+        base2TextField.setText(baseConvert(j.getText(),base,2));
+        base10TextField.setText(baseConvert(j.getText(),base,10));
+        base8TextField.setText(baseConvert(j.getText(),base,8));
+        base16TextField.setText(baseConvert(j.getText(),base,16));
+    }
+    
+    public void processTextFieldConvert(JTextField j,int base){
+        try{
+            switch(base){
+                case 2:
+                    setBaseTextField(j,2);
+                    break;
+                case 10:
+                    setBaseTextField(j,10);
+                    break;
+                case 8:
+                    setBaseTextField(j,8);
+                    break;
+                case 16:
+                    setBaseTextField(j,16);
+                    break;
+            }
+        }
+        catch(NumberFormatException e){
+            
+        }
+        
+    }
+    
+    public void setTextFieldNull(){
+        base2TextField.setText("");
+        base10TextField.setText("");
+        base8TextField.setText("");
+        base16TextField.setText("");
+    }
+    
+    private void base2TextFieldKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_base2TextFieldKeyReleased
+        if(base2TextField.getText().equals("")){
+            setTextFieldNull();
+        }
+        else{
+            processTextFieldConvert(base2TextField,2);
+        }
+    }//GEN-LAST:event_base2TextFieldKeyReleased
+
+    private void base10TextFieldKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_base10TextFieldKeyReleased
+        if(base10TextField.getText().equals("")){
+            setTextFieldNull();
+        }
+        else{
+            processTextFieldConvert(base10TextField,10);
+        }
+        
+    }//GEN-LAST:event_base10TextFieldKeyReleased
+
+    private void base8TextFieldKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_base8TextFieldKeyReleased
+        if(base8TextField.getText().equals("")){
+            setTextFieldNull();
+        }
+        else{
+            processTextFieldConvert(base8TextField,8);
+        }
+        
+    }//GEN-LAST:event_base8TextFieldKeyReleased
+
+    private void base16TextFieldKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_base16TextFieldKeyReleased
+        if(base16TextField.getText().equals("")){
+            setTextFieldNull();
+        }
+        else{
+            processTextFieldConvert(base16TextField,16);
+        }
+    }//GEN-LAST:event_base16TextFieldKeyReleased
+
+    private void firstNumberFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_firstNumberFocusGained
+        if (firstNumber.getText().equals("Số thứ nhất")) {
+            firstNumber.setText("");
+        }
+    }//GEN-LAST:event_firstNumberFocusGained
+
+    private void firstNumberFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_firstNumberFocusLost
+        if (firstNumber.getText().isEmpty()) {
+            firstNumber.setText("Số thứ nhất");
+        }
+    }//GEN-LAST:event_firstNumberFocusLost
+
+    private void secondNumberFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_secondNumberFocusGained
+        if (secondNumber.getText().equals("Số thứ hai")) {
+            secondNumber.setText("");
+        }
+    }//GEN-LAST:event_secondNumberFocusGained
+
+    private void secondNumberFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_secondNumberFocusLost
+        if (secondNumber.getText().isEmpty()) {
+            secondNumber.setText("Số thứ hai");
+        }
+    }//GEN-LAST:event_secondNumberFocusLost
+
+    public void calc(){
+        try{
+            BigInteger a = new BigInteger(firstNumber.getText());
+            BigInteger b = new BigInteger(secondNumber.getText());
+            switch(signComboBox.getSelectedItem().toString()){
+                case "+":
+                    ansTextArea.setText(a.add(b).toString());
+                    break;
+                case "-":
+                    ansTextArea.setText(a.subtract(b).toString());
+                    break;
+                case "x":
+                    ansTextArea.setText(a.multiply(b).toString());
+                    break;
+                case "÷":
+                    ansTextArea.setText(a.divide(b).toString());
+                    break;
+                case "%":
+                    ansTextArea.setText(a.mod(b).toString());
+                    break;
+                default:
+                    ansTextArea.setText("");
+                    break;
+            }
+        }
+        catch(NumberFormatException e){
+            
+        }
+    }
+    
+    private void firstNumberKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_firstNumberKeyReleased
+        calc();
+    }//GEN-LAST:event_firstNumberKeyReleased
+
+    private void secondNumberKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_secondNumberKeyReleased
+        calc();
+    }//GEN-LAST:event_secondNumberKeyReleased
+
+    private void signComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_signComboBoxActionPerformed
+        calc();
+    }//GEN-LAST:event_signComboBoxActionPerformed
+
+    private void ansTextAreaFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_ansTextAreaFocusGained
+        if (firstNumber.getText().equals("Kết quả")) {
+            firstNumber.setText("");
+        }
+    }//GEN-LAST:event_ansTextAreaFocusGained
+
+    private void ansTextAreaFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_ansTextAreaFocusLost
+        if (firstNumber.getText().isEmpty()) {
+            firstNumber.setText("Kết quả");
+        }
+    }//GEN-LAST:event_ansTextAreaFocusLost
+     
     /**
      * @param args the command line arguments
      */
@@ -468,9 +782,19 @@ public class MainForm extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextArea ansTextArea;
     private javax.swing.JTextField banKinh;
+    private javax.swing.JLabel base10Btn;
+    private javax.swing.JTextField base10TextField;
+    private javax.swing.JLabel base16Btn;
+    private javax.swing.JTextField base16TextField;
+    private javax.swing.JLabel base2Btn;
+    private javax.swing.JTextField base2TextField;
+    private javax.swing.JLabel base8Btn;
+    private javax.swing.JTextField base8TextField;
     private javax.swing.JLabel cVi;
     private javax.swing.JLabel dTich;
+    private javax.swing.JTextField firstNumber;
     private javax.swing.JButton jButton2;
     private javax.swing.JFrame jFrame1;
     private javax.swing.JFrame jFrame2;
@@ -489,6 +813,7 @@ public class MainForm extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTabbedPane jTabbedPane10;
     private javax.swing.JTabbedPane jTabbedPane11;
     private javax.swing.JTabbedPane jTabbedPane17;
@@ -496,6 +821,8 @@ public class MainForm extends javax.swing.JFrame {
     private javax.swing.JButton ktHinhHocPhang;
     private javax.swing.JButton ktSoHoc;
     private javax.swing.JButton ktTongHop;
+    private javax.swing.JTextField secondNumber;
+    private javax.swing.JComboBox<String> signComboBox;
     private javax.swing.JButton tinh;
     // End of variables declaration//GEN-END:variables
 }
