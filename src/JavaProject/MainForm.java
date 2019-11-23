@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package JavaProject;
+package moamoa;
 
 import javax.swing.JFrame;
 
@@ -331,6 +331,11 @@ public class MainForm extends javax.swing.JFrame {
                 ktSoHocComponentShown(evt);
             }
         });
+        ktSoHoc.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ktSoHocActionPerformed(evt);
+            }
+        });
 
         ktHinhHocKG.setText("Hình học không gian ");
         ktHinhHocKG.addComponentListener(new java.awt.event.ComponentAdapter() {
@@ -345,10 +350,10 @@ public class MainForm extends javax.swing.JFrame {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addGap(42, 42, 42)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(ktHinhHocPhang, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE)
-                    .addComponent(ktSoHoc, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(ktSoHoc, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(ktHinhHocPhang, javax.swing.GroupLayout.DEFAULT_SIZE, 151, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(ktHinhHocKG, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(ktTongHop, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -362,10 +367,10 @@ public class MainForm extends javax.swing.JFrame {
                     .addComponent(ktHinhHocPhang, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(ktHinhHocKG, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(ktSoHoc, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(ktTongHop, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(41, Short.MAX_VALUE))
+                .addContainerGap(42, Short.MAX_VALUE))
         );
 
         jTabbedPane10.addTab("Kiểm tra", jPanel3);
@@ -420,16 +425,25 @@ public class MainForm extends javax.swing.JFrame {
 
     private void ktHinhHocPhangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktHinhHocPhangActionPerformed
         if(evt.getSource()== ktHinhHocPhang ) {  
-            GameForm k= new GameForm();
+            ktHHP k= new ktHHP();
             k.setVisible(true);
         }// TODO add your handling code here:
     }//GEN-LAST:event_ktHinhHocPhangActionPerformed
+
 
     private void ktTongHopActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktTongHopActionPerformed
       
       BrainTranning a= new BrainTranning();
       a.setVisible(true);
     }//GEN-LAST:event_ktTongHopActionPerformed
+   private void ktSoHocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktSoHocActionPerformed
+       if(evt.getSource()== ktSoHoc){
+           ktSoHoc k= new ktSoHoc();
+           k.setVisible(true);
+       }
+    }//GEN-LAST:event_ktSoHocActionPerformed
+// fix conflict
+
 
     /**
      * @param args the command line arguments
