@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package moamoa;
+package JavaProject;
 
 import java.math.BigInteger;
 import javax.swing.*;
@@ -593,8 +593,8 @@ public class MainForm extends javax.swing.JFrame {
 
     private void ktHinhHocPhangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktHinhHocPhangActionPerformed
         if(evt.getSource()== ktHinhHocPhang ) {  
-            ktHHP k= new ktHHP();
-            k.setVisible(true);
+//            ktHHP k= new ktHHP();
+//            k.setVisible(true);
         }// TODO add your handling code here:
     }//GEN-LAST:event_ktHinhHocPhangActionPerformed
 
