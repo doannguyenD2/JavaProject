@@ -430,13 +430,20 @@ public class MainForm extends javax.swing.JFrame {
         }// TODO add your handling code here:
     }//GEN-LAST:event_ktHinhHocPhangActionPerformed
 
-    private void ktSoHocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktSoHocActionPerformed
+
+    private void ktTongHopActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktTongHopActionPerformed
+      
+      BrainTranning a= new BrainTranning();
+      a.setVisible(true);
+    }//GEN-LAST:event_ktTongHopActionPerformed
+   private void ktSoHocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktSoHocActionPerformed
        if(evt.getSource()== ktSoHoc){
            ktSoHoc k= new ktSoHoc();
            k.setVisible(true);
        }
     }//GEN-LAST:event_ktSoHocActionPerformed
 // fix conflict
+
 
     /**
      * @param args the command line arguments
