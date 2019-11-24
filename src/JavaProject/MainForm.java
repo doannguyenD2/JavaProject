@@ -69,7 +69,7 @@ public class MainForm extends javax.swing.JFrame {
         base16Btn = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         ktTongHop = new javax.swing.JButton();
-        ktHinhHocPhang = new javax.swing.JButton();
+        ktNhayBen = new javax.swing.JButton();
         ktSoHoc = new javax.swing.JButton();
         ktHinhHocKG = new javax.swing.JButton();
 
@@ -469,17 +469,19 @@ public class MainForm extends javax.swing.JFrame {
             }
         });
 
-        ktHinhHocPhang.setText("Hình Học Phẳng");
-        ktHinhHocPhang.setMaximumSize(new java.awt.Dimension(151, 25));
-        ktHinhHocPhang.setMinimumSize(new java.awt.Dimension(151, 25));
-        ktHinhHocPhang.addComponentListener(new java.awt.event.ComponentAdapter() {
+        ktNhayBen.setText("Kiểm tra nhạy bén");
+        ktNhayBen.setToolTipText("");
+        ktNhayBen.setActionCommand("");
+        ktNhayBen.setMaximumSize(new java.awt.Dimension(151, 25));
+        ktNhayBen.setMinimumSize(new java.awt.Dimension(151, 25));
+        ktNhayBen.addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
-                ktHinhHocPhangComponentShown(evt);
+                ktNhayBenComponentShown(evt);
             }
         });
-        ktHinhHocPhang.addActionListener(new java.awt.event.ActionListener() {
+        ktNhayBen.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ktHinhHocPhangActionPerformed(evt);
+                ktNhayBenActionPerformed(evt);
             }
         });
 
@@ -501,6 +503,11 @@ public class MainForm extends javax.swing.JFrame {
                 ktHinhHocKGComponentShown(evt);
             }
         });
+        ktHinhHocKG.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ktHinhHocKGActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -508,20 +515,10 @@ public class MainForm extends javax.swing.JFrame {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addGap(42, 42, 42)
-
-                      
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(ktHinhHocPhang, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE)
-                    .addComponent(ktSoHoc, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-
-                      
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(ktSoHoc, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ktHinhHocPhang, javax.swing.GroupLayout.DEFAULT_SIZE, 151, Short.MAX_VALUE))
+                    .addComponent(ktNhayBen, javax.swing.GroupLayout.DEFAULT_SIZE, 151, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-
-                      
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(ktHinhHocKG, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(ktTongHop, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -532,7 +529,7 @@ public class MainForm extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addGap(41, 41, 41)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ktHinhHocPhang, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ktNhayBen, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(ktHinhHocKG, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -579,9 +576,9 @@ public class MainForm extends javax.swing.JFrame {
       
     }//GEN-LAST:event_ktTongHopComponentShown
 
-    private void ktHinhHocPhangComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_ktHinhHocPhangComponentShown
+    private void ktNhayBenComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_ktNhayBenComponentShown
         // TODO add your handling code here:
-    }//GEN-LAST:event_ktHinhHocPhangComponentShown
+    }//GEN-LAST:event_ktNhayBenComponentShown
 
     private void ktSoHocComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_ktSoHocComponentShown
         // TODO add your handling code here:
@@ -591,12 +588,12 @@ public class MainForm extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_ktHinhHocKGComponentShown
 
-    private void ktHinhHocPhangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktHinhHocPhangActionPerformed
-        if(evt.getSource()== ktHinhHocPhang ) {  
-//            ktHHP k= new ktHHP();
-//            k.setVisible(true);
+    private void ktNhayBenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktNhayBenActionPerformed
+        if(evt.getSource()== ktNhayBen ) {  
+            ktNhayBen k= new ktNhayBen();
+            k.setVisible(true);
         }// TODO add your handling code here:
-    }//GEN-LAST:event_ktHinhHocPhangActionPerformed
+    }//GEN-LAST:event_ktNhayBenActionPerformed
 
 
     private void ktTongHopActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktTongHopActionPerformed
@@ -770,6 +767,10 @@ public class MainForm extends javax.swing.JFrame {
             firstNumber.setText("Kết quả");
         }
     }//GEN-LAST:event_ansTextAreaFocusLost
+
+    private void ktHinhHocKGActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktHinhHocKGActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ktHinhHocKGActionPerformed
      
     /**
      * @param args the command line arguments
@@ -844,7 +845,7 @@ public class MainForm extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jTabbedPane11;
     private javax.swing.JTabbedPane jTabbedPane17;
     private javax.swing.JButton ktHinhHocKG;
-    private javax.swing.JButton ktHinhHocPhang;
+    private javax.swing.JButton ktNhayBen;
     private javax.swing.JButton ktSoHoc;
     private javax.swing.JButton ktTongHop;
     private javax.swing.JTextField secondNumber;
