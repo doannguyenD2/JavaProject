@@ -18,6 +18,9 @@ public class ktSoHoc extends javax.swing.JFrame {
 
     private int firsttNumber = 0;
     private int secondNumber = 0;
+    private int firsttNumberSpe = 0;
+    private int secondNumberSpe = 0;
+    
     private int kq;
     private int thoiGian = 0;
     private Timer time;
@@ -53,6 +56,8 @@ public class ktSoHoc extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         oDiem = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -60,6 +65,12 @@ public class ktSoHoc extends javax.swing.JFrame {
         go.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 goActionPerformed(evt);
+            }
+        });
+
+        hopThoiGian.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hopThoiGianActionPerformed(evt);
             }
         });
 
@@ -76,11 +87,20 @@ public class ktSoHoc extends javax.swing.JFrame {
 
         oMangSong.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         oMangSong.setText("3");
+        oMangSong.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oMangSongActionPerformed(evt);
+            }
+        });
 
         jLabel1.setText("Mạng ");
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Điểm");
+
+        jLabel3.setText("Đáp án");
+
+        jLabel4.setText("Thời gian");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -89,15 +109,21 @@ public class ktSoHoc extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(oMangSong, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(hopThoiGian, javax.swing.GroupLayout.DEFAULT_SIZE, 78, Short.MAX_VALUE))
+                    .addComponent(hopThoiGian, javax.swing.GroupLayout.DEFAULT_SIZE, 78, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(oMangSong, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel4))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                         .addGap(51, 51, 51)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(39, 39, 39)
-                        .addComponent(oDapAn, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel3)
+                            .addComponent(oDapAn, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(26, 26, 26)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(oDiem)
@@ -122,19 +148,25 @@ public class ktSoHoc extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(24, 24, 24)
-                        .addComponent(hopThoiGian, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
                         .addGap(20, 20, 20)
                         .addComponent(jLabel2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(oDiem, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(oDiem, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(hopThoiGian, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18)
-                .addComponent(jLabel1)
-                .addGap(9, 9, 9)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(oMangSong, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(oDapAn, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel1)
+                        .addGap(9, 9, 9)
+                        .addComponent(oMangSong, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel3)
+                        .addGap(18, 18, 18)
+                        .addComponent(oDapAn, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(go, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -150,10 +182,21 @@ public class ktSoHoc extends javax.swing.JFrame {
             Random rd = new Random();
             firsttNumber = rd.nextInt(90 - 1) + 10;
             secondNumber = rd.nextInt(90 - 1) + 10;
+            
+            firsttNumberSpe = rd.nextInt(90 - 1) + 10;
+            secondNumberSpe = rd.nextInt(8) + 1;
             kq = 0;
             bieuThucStr = "";
-
-            int test = rd.nextInt(2) + 1;
+               
+            if(diem>3){
+                firsttNumber = rd.nextInt(900 - 1) + 100;
+                secondNumber = rd.nextInt(90 - 1) + 10;
+            
+                firsttNumberSpe = rd.nextInt(900 - 1) + 100;
+                secondNumberSpe = rd.nextInt(8) + 1;
+            }
+            
+            int test = rd.nextInt(3) + 1;
 
             switch (test) {
                 case 1:
@@ -163,6 +206,10 @@ public class ktSoHoc extends javax.swing.JFrame {
                 case 2:
                     kq = firsttNumber - secondNumber;
                     bieuThucStr = firsttNumber + "-" + secondNumber;
+                    break;
+                case 3:
+                    kq = firsttNumberSpe * secondNumberSpe;
+                    bieuThucStr = firsttNumberSpe + "*" + secondNumberSpe;
                     break;
 
             }
@@ -237,6 +284,14 @@ public class ktSoHoc extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_submitActionPerformed
 
+    private void oMangSongActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_oMangSongActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_oMangSongActionPerformed
+
+    private void hopThoiGianActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hopThoiGianActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_hopThoiGianActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -277,6 +332,8 @@ public class ktSoHoc extends javax.swing.JFrame {
     private javax.swing.JTextField hopThoiGian;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea manHinh;
     private javax.swing.JTextField oDapAn;
