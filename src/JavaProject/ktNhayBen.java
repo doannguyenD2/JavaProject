@@ -57,14 +57,26 @@ public class ktNhayBen extends javax.swing.JFrame {
         mainLabel.setText(colors[rdText].toUpperCase());
         levelLabel.setText("Level: " + levelCount);
         scoreLabel.setText("Score: " + scoreCount);
-        int rdBtn = rd.nextInt(1);
-        if(rdBtn==1)
+        boolean rdBtn = rd.nextBoolean(); // re.nextInt(1) always return 0. I dunno what the fuck is going on.
+        System.out.println(rdBtn);
+        if(rdBtn)
         {
+            if(rdColor==rdText) 
+            {
+                oneBtn.setText(colors[rdColor].toUpperCase());
+                twoBtn.setText(colors[rd.nextInt(8)].toUpperCase());
+            } 
+            else
             oneBtn.setText(colors[rdColor].toUpperCase());
             twoBtn.setText(colors[rdText].toUpperCase());
         }
         else
         {
+            if(rdColor==rdText) 
+            {
+                oneBtn.setText(colors[rdColor].toUpperCase());
+                twoBtn.setText(colors[rd.nextInt(8)].toUpperCase());
+            } else
             oneBtn.setText(colors[rdText].toUpperCase());
             twoBtn.setText(colors[rdColor].toUpperCase());
         }
@@ -80,7 +92,7 @@ public class ktNhayBen extends javax.swing.JFrame {
     private void initComponents() {
 
         mainLabel = new java.awt.Label();
-        label1 = new java.awt.Label();
+        desLabel = new java.awt.Label();
         oneBtn = new javax.swing.JButton();
         twoBtn = new javax.swing.JButton();
         startBtn = new javax.swing.JButton();
@@ -95,9 +107,9 @@ public class ktNhayBen extends javax.swing.JFrame {
         mainLabel.setFont(new java.awt.Font("Nexa XBold", 1, 48)); // NOI18N
         mainLabel.setText("BlindColor");
 
-        label1.setAlignment(java.awt.Label.CENTER);
-        label1.setFont(new java.awt.Font("Nexa Bold", 0, 14)); // NOI18N
-        label1.setText("Choose the color of text, not the text.");
+        desLabel.setAlignment(java.awt.Label.CENTER);
+        desLabel.setFont(new java.awt.Font("Nexa Bold", 0, 14)); // NOI18N
+        desLabel.setText("Choose the color of text, not the text.");
 
         oneBtn.setText("Color1");
         oneBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -134,7 +146,7 @@ public class ktNhayBen extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(progressBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(mainLabel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(label1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(desLabel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(oneBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -142,13 +154,13 @@ public class ktNhayBen extends javax.swing.JFrame {
                 .addComponent(twoBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(startBtn)
-                .addGap(174, 174, 174))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(scoreLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 192, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(levelLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 217, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(174, 174, 174)
+                .addComponent(startBtn)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -161,7 +173,7 @@ public class ktNhayBen extends javax.swing.JFrame {
                 .addGap(38, 38, 38)
                 .addComponent(mainLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(desLabel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(oneBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -181,9 +193,15 @@ public class ktNhayBen extends javax.swing.JFrame {
         if(evt.getSource()== startBtn)
         {
             timeCount = 100;
-            levelCount = 1;
+            if(levelCount<10) 
+            {
+                levelCount++;
+                startBtn.setText("Level Up?");
+            }
+            else startBtn.setText("Final level");
+            scoreCount = 0;
             loadText();
-            time = new Timer(40 , new loadTime());
+            time = new Timer(55 - levelCount*5, new loadTime());
             time.start();
         }
     }//GEN-LAST:event_startBtnActionPerformed
@@ -192,17 +210,27 @@ public class ktNhayBen extends javax.swing.JFrame {
         // TODO add your handling code here:
         if(evt.getSource()==oneBtn)
         {
-            if(oneBtn.getText().toLowerCase()==colors[rdColor].toLowerCase())
+            System.out.println(oneBtn.getText().toLowerCase()+" "+colors[rdColor].toLowerCase());
+            if(oneBtn.getText().toLowerCase().equals(colors[rdColor].toLowerCase()))
             {
                 loadText();
-                scoreCount++;
+                scoreCount += levelCount;
+                if(levelCount<10&&(scoreCount%50==0)) 
+                    {
+                        levelCount++;
+                    }
                 timeCount =100;
                 time.start();
             }
             else {
-                scoreLabel.setText("game over");
-                scoreLabel.setForeground(Color.red);
-                levelLabel.setText(scoreCount + " - " + levelCount);
+                time.stop();
+                mainLabel.setText("GAME OVER");
+                mainLabel.setForeground(Color.red);
+                desLabel.setText("Wrong Answer.");
+                oneBtn.setText("Color one");
+                twoBtn.setText("Color two");
+                
+                
             }
         }
     }//GEN-LAST:event_oneBtnActionPerformed
@@ -211,18 +239,26 @@ public class ktNhayBen extends javax.swing.JFrame {
         // TODO add your handling code here:
         if(evt.getSource()==twoBtn)
             {
-            if(twoBtn.getText().toLowerCase()==colors[rdColor].toLowerCase())
-            {
-                loadText();
-                scoreCount++;
-                timeCount =100;
-                time.start();
-            }
-            else {
-                scoreLabel.setText("game over");
-                scoreLabel.setForeground(Color.red);
-                levelLabel.setText(scoreCount + " - " + levelCount);
-            }
+                System.out.println(twoBtn.getText().toLowerCase()+" "+colors[rdColor].toLowerCase());
+                if(twoBtn.getText().toLowerCase().equals(colors[rdColor].toLowerCase()))
+                {
+                    loadText();
+                    scoreCount += levelCount;
+                    if(levelCount<10&&(scoreCount%50==0)) 
+                    {
+                        levelCount++;
+                    }
+                    timeCount =100;
+                    time.start();
+                }
+                else {
+                    time.stop();
+                    mainLabel.setText("GAME OVER");
+                    mainLabel.setForeground(Color.red);
+                    oneBtn.setText("Color one");
+                    twoBtn.setText("Color two");
+                    desLabel.setText("Wrong Answer.");
+                }
         }
     }//GEN-LAST:event_twoBtnActionPerformed
     public class loadTime implements ActionListener{
@@ -235,9 +271,12 @@ public class ktNhayBen extends javax.swing.JFrame {
                 progressBar.setValue(timeCount);
             }
             else {
-                scoreLabel.setText("game over");
-                scoreLabel.setForeground(Color.red);
-                levelLabel.setText(scoreCount + " - " + levelCount);
+                mainLabel.setText("GAME OVER");
+                mainLabel.setForeground(Color.red);
+                oneBtn.setText("Color one");
+                twoBtn.setText("Color two");
+                desLabel.setText("Nice try.");
+
             }
         }   
     }
@@ -277,7 +316,7 @@ public class ktNhayBen extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private java.awt.Label label1;
+    private java.awt.Label desLabel;
     private javax.swing.JLabel levelLabel;
     private java.awt.Label mainLabel;
     private javax.swing.JButton oneBtn;
