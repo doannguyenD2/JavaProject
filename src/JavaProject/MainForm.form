@@ -618,10 +618,9 @@
                       <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="ktSoHoc" max="32767" attributes="0"/>
-                          <Component id="ktHinhHocPhang" pref="151" max="32767" attributes="0"/>
+                          <Component id="ktNhayBen" pref="151" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="ktHinhHocKG" max="32767" attributes="0"/>
                           <Component id="ktTongHop" max="32767" attributes="0"/>
@@ -635,7 +634,7 @@
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="ktHinhHocPhang" alignment="3" min="-2" pref="149" max="-2" attributes="0"/>
+                          <Component id="ktNhayBen" alignment="3" min="-2" pref="149" max="-2" attributes="0"/>
                           <Component id="ktHinhHocKG" alignment="3" min="-2" pref="149" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -658,9 +657,11 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ktTongHopActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="ktHinhHocPhang">
+            <Component class="javax.swing.JButton" name="ktNhayBen">
               <Properties>
-                <Property name="text" type="java.lang.String" value="H&#xec;nh H&#x1ecd;c Ph&#x1eb3;ng"/>
+                <Property name="text" type="java.lang.String" value="Ki&#x1ec3;m tra nh&#x1ea1;y b&#xe9;n"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+                <Property name="actionCommand" type="java.lang.String" value=""/>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[151, 25]"/>
                 </Property>
@@ -669,8 +670,8 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="ktHinhHocPhangComponentShown"/>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ktHinhHocPhangActionPerformed"/>
+                <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="ktNhayBenComponentShown"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ktNhayBenActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="ktSoHoc">
@@ -688,6 +689,7 @@
               </Properties>
               <Events>
                 <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="ktHinhHocKGComponentShown"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ktHinhHocKGActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
