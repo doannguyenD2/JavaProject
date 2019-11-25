@@ -67,6 +67,7 @@ public class MainForm extends javax.swing.JFrame {
         base10Btn = new javax.swing.JLabel();
         base8Btn = new javax.swing.JLabel();
         base16Btn = new javax.swing.JLabel();
+        computerNetworkBtn = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         ktTongHop = new javax.swing.JButton();
         ktHinhHocPhang = new javax.swing.JButton();
@@ -442,6 +443,14 @@ public class MainForm extends javax.swing.JFrame {
 
         jTabbedPane17.addTab("Chuyển đổi cơ số", jPanel12);
 
+        computerNetworkBtn.setText("Vào học");
+        computerNetworkBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                computerNetworkBtnActionPerformed(evt);
+            }
+        });
+        jTabbedPane17.addTab("Học Mạng Máy Tính", computerNetworkBtn);
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -744,6 +753,13 @@ public class MainForm extends javax.swing.JFrame {
             firstNumber.setText("Kết quả");
         }
     }//GEN-LAST:event_ansTextAreaFocusLost
+
+    private void computerNetworkBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_computerNetworkBtnActionPerformed
+        if(evt.getSource() == computerNetworkBtn){
+            LearnComputerNetwork lcn = new LearnComputerNetwork();
+            lcn.setVisible(true);
+        }
+    }//GEN-LAST:event_computerNetworkBtnActionPerformed
      
     /**
      * @param args the command line arguments
@@ -793,6 +809,7 @@ public class MainForm extends javax.swing.JFrame {
     private javax.swing.JLabel base8Btn;
     private javax.swing.JTextField base8TextField;
     private javax.swing.JLabel cVi;
+    private javax.swing.JButton computerNetworkBtn;
     private javax.swing.JLabel dTich;
     private javax.swing.JTextField firstNumber;
     private javax.swing.JButton jButton2;

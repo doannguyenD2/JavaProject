@@ -593,6 +593,21 @@
                     </Component>
                   </SubComponents>
                 </Container>
+                <Component class="javax.swing.JButton" name="computerNetworkBtn">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="V&#xe0;o h&#x1ecd;c"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="computerNetworkBtnActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="H&#x1ecd;c M&#x1ea1;ng M&#xe1;y T&#xed;nh">
+                        <Property name="tabTitle" type="java.lang.String" value="H&#x1ecd;c M&#x1ea1;ng M&#xe1;y T&#xed;nh"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+                </Component>
               </SubComponents>
             </Container>
           </SubComponents>
