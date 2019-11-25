@@ -11,6 +11,8 @@ import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.*;
@@ -41,7 +43,7 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
     private static int wrong;
     private static int checkCorrect = 0;
     
-    
+    private static ArrayList<Exercise>allQuestion; 
     
     
     /**
@@ -56,14 +58,18 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
         answerC = new ArrayList();
         answerD = new ArrayList();
         result = new ArrayList();
+        
+        allQuestion = new ArrayList<>();
         getDataFromXml();
         
-        totalQuestion = question.size();
-        questionLabel.setText("Câu 1" + "/" + totalQuestion + ": " + question.get(qcount).toString());
-        aLabel.setText("A, " + answerA.get(qcount).toString());
-        bLabel.setText("B, " + answerB.get(qcount).toString());
-        cLabel.setText("C, " + answerC.get(qcount).toString());
-        dLabel.setText("D, " + answerD.get(qcount).toString());
+        Collections.shuffle(allQuestion);
+
+        totalQuestion = allQuestion.size();
+        questionLabel.setText("Câu 1" + "/" + totalQuestion + ": " + allQuestion.get(qcount).getQuestion());
+        aLabel.setText("A, " + allQuestion.get(qcount).getAnswerA());
+        bLabel.setText("B, " + allQuestion.get(qcount).getAnswerB());
+        cLabel.setText("C, " + allQuestion.get(qcount).getAnswerC());
+        dLabel.setText("D, " + allQuestion.get(qcount).getAnswerD());
         scoreLabel.setText("Correct: " + correct + " - Wrong: " + wrong);
         scoreLabel.setForeground(Color.red);
 //        System.out.println(result.get(0).toString());
@@ -90,7 +96,7 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
         dLabel = new javax.swing.JLabel();
         scoreLabel = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setBounds(new java.awt.Rectangle(0, 0, 0, 0));
         setPreferredSize(new java.awt.Dimension(1600, 768));
 
@@ -192,7 +198,7 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(dBtn, javax.swing.GroupLayout.DEFAULT_SIZE, 55, Short.MAX_VALUE)
                     .addComponent(cBtn, javax.swing.GroupLayout.DEFAULT_SIZE, 55, Short.MAX_VALUE))
-                .addGap(338, 338, 338))
+                .addContainerGap())
         );
 
         pack();
@@ -200,13 +206,15 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
 
     public void getNewQuestion(){
         ++qcount;
-        int num = qcount+1;
-        questionLabel.setText("Câu " + num + "/" + totalQuestion +": " + question.get(qcount).toString());
-        aLabel.setText("A, " + answerA.get(qcount).toString());
-        bLabel.setText("B, " + answerB.get(qcount).toString());
-        cLabel.setText("C, " + answerC.get(qcount).toString());
-        dLabel.setText("D, " + answerD.get(qcount).toString());
-        checkCorrect = 0;
+        if(qcount < totalQuestion){
+            int num = qcount+1;
+            questionLabel.setText("Câu " + num + "/" + totalQuestion +": " + allQuestion.get(qcount).getQuestion());
+            aLabel.setText("A, " + allQuestion.get(qcount).getAnswerA());
+            bLabel.setText("B, " + allQuestion.get(qcount).getAnswerB());
+            cLabel.setText("C, " + allQuestion.get(qcount).getAnswerC());
+            dLabel.setText("D, " + allQuestion.get(qcount).getAnswerD());
+            checkCorrect = 0;
+        }
         
     }
     
@@ -222,7 +230,7 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
     }
     
     public void process(JButton jb,String ans){
-        if(result.get(qcount).equals(ans)){
+        if(allQuestion.get(qcount).getResult().equals(ans)){
             jb.setBackground(Color.green);
             if(checkCorrect != 2){
                 ++correct;
@@ -273,9 +281,6 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_dBtnActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
     
     public static void getDataFromXml(){
         try {
@@ -294,12 +299,21 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
                 if (node.getNodeType() == Node.ELEMENT_NODE)
                 {
                     Element eElement = (Element) node;
-                    question.add(eElement.getElementsByTagName("noidung").item(0).getTextContent());
-                    answerA.add(eElement.getElementsByTagName("A").item(0).getTextContent());
-                    answerB.add(eElement.getElementsByTagName("B").item(0).getTextContent());
-                    answerC.add(eElement.getElementsByTagName("C").item(0).getTextContent());
-                    answerD.add(eElement.getElementsByTagName("D").item(0).getTextContent());
-                    result.add(eElement.getElementsByTagName("Ans").item(0).getTextContent());
+                    Exercise e = new Exercise();
+                    e.setQuestion(eElement.getElementsByTagName("noidung").item(0).getTextContent());
+                    e.setAnswerA(eElement.getElementsByTagName("A").item(0).getTextContent());
+                    e.setAnswerB(eElement.getElementsByTagName("B").item(0).getTextContent());
+                    e.setAnswerC(eElement.getElementsByTagName("C").item(0).getTextContent());
+                    e.setAnswerD(eElement.getElementsByTagName("D").item(0).getTextContent());
+                    e.setResult(eElement.getElementsByTagName("Ans").item(0).getTextContent());
+
+                    allQuestion.add(e);
+//                    question.add(eElement.getElementsByTagName("noidung").item(0).getTextContent());
+//                    answerA.add(eElement.getElementsByTagName("A").item(0).getTextContent());
+//                    answerB.add(eElement.getElementsByTagName("B").item(0).getTextContent());
+//                    answerC.add(eElement.getElementsByTagName("C").item(0).getTextContent());
+//                    answerD.add(eElement.getElementsByTagName("D").item(0).getTextContent());
+//                    result.add(eElement.getElementsByTagName("Ans").item(0).getTextContent());
                     //System.out.println("Cau hoi : "  + eElement.getElementsByTagName("noidung").item(0).getTextContent());
                 }
             }
