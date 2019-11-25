@@ -90,7 +90,7 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
         dLabel = new javax.swing.JLabel();
         scoreLabel = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setBounds(new java.awt.Rectangle(0, 0, 0, 0));
         setPreferredSize(new java.awt.Dimension(1600, 768));
 
@@ -192,7 +192,7 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(dBtn, javax.swing.GroupLayout.DEFAULT_SIZE, 55, Short.MAX_VALUE)
                     .addComponent(cBtn, javax.swing.GroupLayout.DEFAULT_SIZE, 55, Short.MAX_VALUE))
-                .addGap(338, 338, 338))
+                .addContainerGap())
         );
 
         pack();
@@ -273,9 +273,6 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_dBtnActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
     
     public static void getDataFromXml(){
         try {
