@@ -199,9 +199,6 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     public void getNewQuestion(){
-        if(checkCorrect != 2){
-            ++correct;
-        }
         ++qcount;
         int num = qcount+1;
         questionLabel.setText("Câu " + num + ": " + question.get(qcount).toString());
@@ -227,6 +224,9 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
     public void process(JButton jb,String ans){
         if(result.get(qcount).equals(ans)){
             jb.setBackground(Color.green);
+            if(checkCorrect != 2){
+                ++correct;
+            }
             ActionListener listener = new ActionListener(){
                 public void actionPerformed(ActionEvent event){
                     getNewQuestion();
@@ -236,7 +236,7 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
             Timer timer = new Timer(1000, listener);
             timer.setRepeats(false);
             timer.start();
-
+            
         }
         else{
             jb.setEnabled(false);
