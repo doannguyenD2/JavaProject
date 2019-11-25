@@ -23,9 +23,9 @@ public class ktNhayBen extends javax.swing.JFrame {
     private String textColor;
     private String text;
     Timer time;
-    private int scoreCount, timeCount, levelCount;
+    private int scoreCount = 0, timeCount, levelCount;
     private int rdColor,rdText;
-    private String[] colors = {"white", "black","gray","blue", "red", "cyan","pink","orange","yellow"};
+    private String[] colors = {"white", "black","gray","blue", "red", "cyan","pink","orange","yellow","green"};
     private  ArrayList<Color> colorList = new ArrayList<Color>(){
         {
             add(Color.white);
@@ -36,7 +36,8 @@ public class ktNhayBen extends javax.swing.JFrame {
             add(Color.cyan); 
             add(Color.pink);
             add(Color.orange);
-            add(Color.yellow);  
+            add(Color.yellow);
+            add(Color.green); 
         }
     };
     
@@ -51,8 +52,8 @@ public class ktNhayBen extends javax.swing.JFrame {
     public void loadText()
     {
         Random rd = new Random();
-        rdColor = rd.nextInt(8);
-        rdText = rd.nextInt(8);
+        rdColor = rd.nextInt(9);
+        rdText = rd.nextInt(9);
         mainLabel.setForeground(colorList.get(rdColor));
         mainLabel.setText(colors[rdText].toUpperCase());
         levelLabel.setText("Level: " + levelCount);
@@ -64,21 +65,25 @@ public class ktNhayBen extends javax.swing.JFrame {
             if(rdColor==rdText) 
             {
                 oneBtn.setText(colors[rdColor].toUpperCase());
-                twoBtn.setText(colors[rd.nextInt(8)].toUpperCase());
+                twoBtn.setText(colors[rd.nextInt(9)].toUpperCase());
             } 
             else
+            {
             oneBtn.setText(colors[rdColor].toUpperCase());
             twoBtn.setText(colors[rdText].toUpperCase());
+            }
         }
         else
         {
             if(rdColor==rdText) 
             {
                 oneBtn.setText(colors[rdColor].toUpperCase());
-                twoBtn.setText(colors[rd.nextInt(8)].toUpperCase());
+                twoBtn.setText(colors[rd.nextInt(9)].toUpperCase());
             } else
+            {
             oneBtn.setText(colors[rdText].toUpperCase());
             twoBtn.setText(colors[rdColor].toUpperCase());
+            }
         }
     }
 
@@ -144,44 +149,49 @@ public class ktNhayBen extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(scoreLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 217, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(levelLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 217, Short.MAX_VALUE))
             .addComponent(progressBar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(mainLabel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(desLabel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(174, 174, 174)
+                .addComponent(startBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addGap(166, 166, 166))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(oneBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(twoBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addComponent(scoreLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 192, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(levelLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 217, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(174, 174, 174)
-                .addComponent(startBtn)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
+
+        layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {oneBtn, twoBtn});
+
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(progressBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(scoreLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(levelLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(scoreLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 45, Short.MAX_VALUE)
+                    .addComponent(levelLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 45, Short.MAX_VALUE))
                 .addGap(38, 38, 38)
                 .addComponent(mainLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(desLabel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addGap(45, 45, 45)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(oneBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(twoBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(46, 46, 46)
-                .addComponent(startBtn)
+                .addComponent(startBtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(30, 30, 30))
         );
+
+        layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {oneBtn, twoBtn});
 
         mainLabel.getAccessibleContext().setAccessibleName("");
 
@@ -193,13 +203,22 @@ public class ktNhayBen extends javax.swing.JFrame {
         if(evt.getSource()== startBtn)
         {
             timeCount = 100;
+            if(startBtn.getText().equals("Play again?")) 
+            {
+                scoreCount = 0;
+                levelCount =0;
+                loadText();
+                time = new Timer(55 - levelCount*5, new loadTime());
+                time.start();
+                return;
+                
+            }
             if(levelCount<10) 
             {
                 levelCount++;
                 startBtn.setText("Level Up?");
             }
             else startBtn.setText("Final level");
-            scoreCount = 0;
             loadText();
             time = new Timer(55 - levelCount*5, new loadTime());
             time.start();
@@ -229,8 +248,8 @@ public class ktNhayBen extends javax.swing.JFrame {
                 desLabel.setText("Wrong Answer.");
                 oneBtn.setText("Color one");
                 twoBtn.setText("Color two");
-                
-                
+                startBtn.setText("Play again?");
+ 
             }
         }
     }//GEN-LAST:event_oneBtnActionPerformed
@@ -258,6 +277,7 @@ public class ktNhayBen extends javax.swing.JFrame {
                     oneBtn.setText("Color one");
                     twoBtn.setText("Color two");
                     desLabel.setText("Wrong Answer.");
+                    startBtn.setText("Play again?");
                 }
         }
     }//GEN-LAST:event_twoBtnActionPerformed
@@ -276,6 +296,7 @@ public class ktNhayBen extends javax.swing.JFrame {
                 oneBtn.setText("Color one");
                 twoBtn.setText("Color two");
                 desLabel.setText("Nice try.");
+                startBtn.setText("Play again?");
 
             }
         }   
