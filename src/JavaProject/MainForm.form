@@ -687,6 +687,21 @@
                     </Component>
                   </SubComponents>
                 </Container>
+                <Component class="javax.swing.JButton" name="computerNetworkBtn">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="B&#x1eaf;t &#x111;&#x1ea7;u l&#xe0;m"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="computerNetworkBtnActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="&#xd4;n t&#x1ead;p M&#x1ea1;ng M&#xe1;y T&#xed;nh">
+                        <Property name="tabTitle" type="java.lang.String" value="&#xd4;n t&#x1ead;p M&#x1ea1;ng M&#xe1;y T&#xed;nh"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+                </Component>
               </SubComponents>
             </Container>
           </SubComponents>
@@ -710,11 +725,9 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="ktSoHoc" max="32767" attributes="0"/>
                           <Component id="ktNhayBen" pref="151" max="32767" attributes="0"/>
-
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -729,12 +742,9 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-
-
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="ktNhayBen" alignment="3" min="-2" pref="149" max="-2" attributes="0"/>
                           <Component id="ktHinhHocKG" alignment="3" min="-2" pref="149" max="-2" attributes="0"/>
-
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
