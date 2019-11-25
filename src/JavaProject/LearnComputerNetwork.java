@@ -31,12 +31,12 @@ import org.xml.sax.SAXException;
  */
 public class LearnComputerNetwork extends javax.swing.JFrame {
     
-    private static ArrayList question;
-    private static ArrayList answerA;
-    private static ArrayList answerB;
-    private static ArrayList answerC;
-    private static ArrayList answerD;
-    private static ArrayList result;
+//    private static ArrayList question;
+//    private static ArrayList answerA;
+//    private static ArrayList answerB;
+//    private static ArrayList answerC;
+//    private static ArrayList answerD;
+//    private static ArrayList result;
     private static int qcount;
     private static int totalQuestion;
     private static int correct;
@@ -53,12 +53,12 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
     public LearnComputerNetwork(){
         initComponents();
         qcount = 0;
-        question = new ArrayList();
-        answerA = new ArrayList();
-        answerB = new ArrayList();
-        answerC = new ArrayList();
-        answerD = new ArrayList();
-        result = new ArrayList();
+//        question = new ArrayList();
+//        answerA = new ArrayList();
+//        answerB = new ArrayList();
+//        answerC = new ArrayList();
+//        answerD = new ArrayList();
+//        result = new ArrayList();
         
         allQuestion = new ArrayList<>();
         getDataFromXml();
