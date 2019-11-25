@@ -26,25 +26,25 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="scoreLabel" pref="217" max="32767" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="levelLabel" pref="217" max="32767" attributes="0"/>
+          </Group>
           <Component id="progressBar" alignment="0" max="32767" attributes="0"/>
           <Component id="mainLabel" alignment="1" max="32767" attributes="0"/>
           <Component id="desLabel" alignment="1" max="32767" attributes="0"/>
-          <Group type="102" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="oneBtn" min="-2" pref="108" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="twoBtn" min="-2" pref="108" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="1" attributes="0">
-              <Component id="scoreLabel" pref="192" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="levelLabel" min="-2" pref="217" max="-2" attributes="0"/>
-          </Group>
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="174" max="-2" attributes="0"/>
-              <Component id="startBtn" min="-2" max="-2" attributes="0"/>
+              <Component id="startBtn" pref="0" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="166" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="oneBtn" linkSize="1" min="-2" pref="108" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
+              <Component id="twoBtn" linkSize="1" min="-2" pref="108" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -52,22 +52,22 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Component id="progressBar" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="scoreLabel" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                  <Component id="levelLabel" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="scoreLabel" alignment="3" pref="45" max="32767" attributes="0"/>
+                  <Component id="levelLabel" alignment="3" pref="45" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
               <Component id="mainLabel" min="-2" pref="76" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
               <Component id="desLabel" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="45" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="oneBtn" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                  <Component id="twoBtn" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="oneBtn" linkSize="2" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="twoBtn" linkSize="2" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
-              <Component id="startBtn" min="-2" max="-2" attributes="0"/>
+              <Component id="startBtn" max="32767" attributes="0"/>
               <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
           </Group>
       </Group>
