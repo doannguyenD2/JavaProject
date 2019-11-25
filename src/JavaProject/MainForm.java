@@ -78,6 +78,7 @@ public class MainForm extends javax.swing.JFrame {
         base10Btn = new javax.swing.JLabel();
         base8Btn = new javax.swing.JLabel();
         base16Btn = new javax.swing.JLabel();
+        computerNetworkBtn = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         ktTongHop = new javax.swing.JButton();
         ktNhayBen = new javax.swing.JButton();
@@ -554,6 +555,14 @@ public class MainForm extends javax.swing.JFrame {
 
         jTabbedPane17.addTab("Chuyển đổi cơ số", jPanel12);
 
+        computerNetworkBtn.setText("Bắt đầu làm");
+        computerNetworkBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                computerNetworkBtnActionPerformed(evt);
+            }
+        });
+        jTabbedPane17.addTab("Ôn tập Mạng Máy Tính", computerNetworkBtn);
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -627,11 +636,9 @@ public class MainForm extends javax.swing.JFrame {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addGap(42, 42, 42)
-
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(ktSoHoc, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(ktNhayBen, javax.swing.GroupLayout.DEFAULT_SIZE, 151, Short.MAX_VALUE))
-
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(ktHinhHocKG, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -642,11 +649,9 @@ public class MainForm extends javax.swing.JFrame {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addGap(41, 41, 41)
-
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(ktNhayBen, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(ktHinhHocKG, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE))
-
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(ktSoHoc, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -946,6 +951,13 @@ public class MainForm extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_ktHinhHocKGActionPerformed
 
+    private void computerNetworkBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_computerNetworkBtnActionPerformed
+        if(evt.getSource() == computerNetworkBtn){
+            LearnComputerNetwork lcn = new LearnComputerNetwork();
+            lcn.setVisible(true);
+        }
+    }//GEN-LAST:event_computerNetworkBtnActionPerformed
+
      
     /**
      * @param args the command line arguments
@@ -1000,6 +1012,7 @@ public class MainForm extends javax.swing.JFrame {
     private javax.swing.JTextField cViHcn;
     private javax.swing.JTextField canhHv;
     private javax.swing.JTextField chuVi;
+    private javax.swing.JButton computerNetworkBtn;
     private javax.swing.JTextField dTich;
     private javax.swing.JTextField dTichHcn;
     private javax.swing.JTextField dienTich;

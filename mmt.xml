@@ -1,0 +1,2379 @@
+<?xml version="1.0"?>
+<entries>
+	<entry>
+		<noidung>Các mạng máy tính được thiết kế và cài đặt theo quan điểm:</noidung><s>1</s>
+		<A>Có cấu trúc đa tầng</A>
+		<B>Nhiều tầng</B>
+		<C>Theo lớp</C>
+		<D>Tập hợp</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Khi sử dụng mạng máy tính ta sẽ thu được các lợi ích:</noidung><s>1</s>
+		<A>Chia sẻ tài nguyên (ổ cúng, cơ sở dữ liệu, máy in, các phần mềm tiện ích...)</A>
+		<B>Quản lý tập trung</B>
+		<C>Tận dụng năng lực xử lý của các máy tính rỗi kết hợp lại để thực hiện các công việc lớn</C>
+		<D>Tất cả đều đúng</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Đơn vị cơ bản đo tốc độ truyền dữ liệu là:</noidung><s>1</s>
+		<A>Bit</A>
+		<B>Byte</B>
+		<C>Bps (bit per second)</C>
+		<D>Hz</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Quá trình dữ liệu di chuyển từ hệ thống máy tính này sang hệ thông máy tính khác phải trải qua giai đoạn nào:</noidung><s>1</s>
+		<A>Phân tích dữ liệu</A>
+		<B>Nén dữ liệu</B>
+		<C>Đóng gói</C>
+		<D>Lọc dữ liệu</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Kết nối mạng sử dụng các giao thức khác nhau bằng các:</noidung><s>1</s>
+		<A>Bộ chuyển tiếp</A>
+		<B>Cổng giao tiếp</B>
+		<C>SONET</C>
+		<D>Bộ định tuyến</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Nhược điểm của mạng dạng hình sao (Star) là:</noidung><s>1</s>
+		<A>Khó cài đặt và bảo trì</A>
+		<B>Kháo khắc phục khi lỗi cáp xảy ra, và ảnh hướng taowis các nút mạng khác</B>
+		<C>Cần quá nhiều cáp để kết nối tới nút mạng trung tâm</C>
+		<D>Không có khả năng thay đổi khi đã lắp đặt</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Đặc điểm của mạng dạng Bus:</noidung><s>1</s>
+		<A>Tất cả các nút mạng kết nối vào nút mạng trung tâm (ví dụ như Hub)</A>
+		<B>Tất cả các nút kết nối trên cùng một đường truyền vật lý</B>
+		<C>Tất cả các nút mạng đều kết nối trực tiếp với nhau</C>
+		<D>Mỗi nút mạng kết nối với 2 nút mạng còn lại</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong kỹ thuật chuyển mạch kênh, trước khi trao đổi thông tin, hệ thống sẽ thiết lập kết nối giữa 2 thực thể bằng một:</noidung><s>1</s>
+		<A>Đường truyền vật lý</A>
+		<B>Kết nối ảo</B>
+		<C>Đường ảo</C>
+		<D>Đường truyền logic</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Kết nối liên mạng các mạng LAN, WAN, MAN độc lớp với nhau bằng các thiết bị có chức năng:</noidung><s>1</s>
+		<A>Kiểm soát lỗi, kiểm soát luồng</A>
+		<B>Định tuyến</B>
+		<C>Điều khiển liên kết</C>
+		<D>Điều khiển lưu lượng và đồng bộ hóa</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Cáp UTP Cat5e sử dụng đầu nối: </noidung><s>1</s>
+		<A>RJ-58</A>
+		<B>BNC</B>
+		<C>RJ-45</C>
+		<D>ST</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Cáp UTP Cat 5 có bao nhiêu đôi cáp:</noidung><s>1</s>
+		<A>2</A>
+		<B>4</B>
+		<C>6</C>
+		<D>8</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Đặc điểm quang trong của kiến trúc mạng client/server (khách/chủ):</noidung><s>0</s>
+		<A>Client/server là kiến trúc phần cấp, client đóng vai trò yêu cầu và server đáp ứng lại các yêu cầu đó.</A>
+		<B>Server là host luôn hoạt động, thường có IP cố định, có nhóm các server để chia sẻ công việc. Client có kết nối không liên tục, địa chỉ IP có thể thay đổi, truyền thông với server và thường không truyền thông trực tiếp với client khác.</B>
+		<C>Câu A và B đều đúng</C>
+		<D>Câu A và B đều sai</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Khẳng định nào sau đây là đúng khi nói vế mạng có cấu trúc điểm-điểm:</noidung><s>1</s>
+		<A>Mạng quảng bá</A>
+		<B>Nối từng cặp node lại với nhau theo mộ hình học xác định</B>
+		<C>Mạng lưu và chuyển tiếp (Store - and - Forward)</C>
+		<D>Các node trung gian: tiếp nhận, lưu trữ tạm thời và gửi tiếp thông tin</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Khẳng định nào sau đây là đúng khi nói về nhược điểm của mạng có cấu trức điểm - điểm:</noidung><s>1</s>
+		<A>Khả năng đụng dộ thông tin (cillision) thấp</A>
+		<B>Hiệu suất sử dụng đường truyền thấp, chiếm dụng nhiều tài nguyên</B>
+		<C>Độ trễ lớn, tốn nhiều thời gian để thiết lập đường truyền và xử lý tại các node</C>
+		<D>Tốc độ trao đổi thông tin thấp</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Khẳng định nào sau đây là đúng khi nói về đặc trưng của mạng quảng bá:</noidung><s>1</s>
+		<A>Tất cả các node cùng truy nhập chung trên một đường truyền vật lý</A>
+		<B>Nối từng cặp node lại với nhau theo một hình học xác định</B>
+		<C>Các node trung gian: tiếp nhận, lưu trữ tạm thời và gửi tiếp thông tin</C>
+		<D>Khả năng đụng dộ thông tin (collision) thấp</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Khẳng định nào sau đây là đúng khi nói về mạng chuyển mạch kênh:</noidung><s>1</s>
+		<A>Thiếp lập liên kết vậy lý, truyền dữ liệu và giải phóng liên kết giữa 2 thực thể</A>
+		<B>Thiết lập liên kết logic, truyền dữ liệu và giải phóng liên kết giữa 2 thực thể</B>
+		<C>Truyền dữ liệu giữa 2 thực thể</C>
+		<D>Thiết lập liên kết và giải phóng liên kết giữa 2 thực thể</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Khẳng định nào sau đây là đúng khi nói về mạng chuyển mạch gói:</noidung><s>1</s>
+		<A>Gói tin lưu chuyển trên các kết nối logic</A>
+		<B>Gói tin lưu chuyển trên các kết nối vật lý</B>
+		<C>Gói tin lưu chuyển độc lập hướng đích</C>
+		<D>Gói tin lưu chuyển trên các kết nối logic hướng đích và trên một đường có thể có nhiều gói tin cùng lưu chuyển</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Khẳng định nào sau đây là đúng khi nói về quá trình phần mảnh gói tin:</noidung><s>1</s>
+		<A>Làm giảm thời gian xử lý</A>
+		<B>Làm tăng tính linh hoạt của mạng</B>
+		<C>Ảnh hưởng đến tốc độ trao đổi dữ liệu trong mạng</C>
+		<D>Tăng tốc độ trao đổi thông tin trong mạng</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Khẳng định nào sau đây là đúng khi nói về truyền dữ liệu theo phương thức hướng liên kết:</noidung><s>1</s>
+		<A>Có độ tin cậy cao, đảm bào chất lượng dịch vụ và có xác nhận</A>
+		<B>Không cần độ tin cậy cao, chất lượng dịch vụ thấp</B>
+		<C>Có xác nhận, không kiểm soát lỗi, kiểm soát luồng</C>
+		<D>Độ tin cậy cao, không xác nhận</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Khẳng định nào sau đây là đúng nói về cấu trúc vật lý của mạng:</noidung><s>1</s>
+		<A>Giao thức mạng (Protocol)</A>
+		<B>Hình trạng mạng (Topology)</B>
+		<C>Phượng tiện truyền</C>
+		<D>Các dịch vụ mạng</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Mạng Internet là: </noidung><s>1</s>
+		<A>Mạng của các máy tính toàn cầu kết nối lại với nhau theo giao thức TCP/IP</A>
+		<B>Mạng diện rộng</B>
+		<C>Mạng máy tính toàn cầu</C>
+		<D>Mạng của các mạng cong kết nối lại với nhau</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong mạng hình BUS, tất cả các trạm truy nhập ngẫu nhiên vào: </noidung><s>1</s>
+		<A>Đường truyền chung</A>
+		<B>Máy chủ mạng</B>
+		<C>Bộ nhớ đệm</C>
+		<D>Các thiết bị kết nối mạng</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Mạng LAN hình sao (STAR) khí có sự cố:</noidung><s>1</s>
+		<A>Sẽ ngừng hoạt động toàn bộ hệ thống</A>
+		<B>Không ảnh hường tới hoạt động toàn bộ hệ thống</B>
+		<C>Chỉ ảnh hưởng đến trạm có sự cố</C>
+		<D>Chỉ ảnh hưởng đến một phần của hệ thống</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Với kiểm kết nối mạng theo dạng hình sao (Star), khi một trạm trong mạng ngưng hoạt động thì các trạm còn lại:</noidung><s>1</s>
+		<A>Hoạt động bình thường</A>
+		<B>Đều ngưng hoạt động</B>
+		<C>Hoạt động không ổn định</C>
+		<D>Các câu trên đều sai</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Hình trạng mạng nào cho phép tất cả các cặp thiết bị đều có 1 đường nối vật lý trực tiếp: </noidung><s>1</s>
+		<A>Star (dạng sao)</A>
+		<B>Bus (dạng đường trục)</B>
+		<C>Mesh (dạng lưới)</C>
+		<D>Hierarchical (dạng phân cấp)</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Về nguyên tắc cơ bản, dùng cáp UTP Cat5e nào sau đây để kết nối trực tiếp giữa 2 PC với nhau:</noidung><s>1</s>
+		<A>Cáp thẳng</A>
+		<B>Cáp chéo</B>
+		<C>Cáp cuộn</C>
+		<D>Cả 3 loại trên</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Kết quả nào sau đây không đúng:</noidung><s>1</s>
+		<A>163 chuyển sang nhị phần sẽ có giá trị là: 10100011</A>
+		<B>111 chuyển sang nhị phần sẽ có giá trị là: 01100011</B>
+		<C>125 chuyển sang nhị phân sẽ có giá trị là: 01111011</C>
+		<D>178 chuyển sang nhị phân sẽ có giá trị là: 10110010</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Kiểu mạng nào được hạn chế ở cấp tòa cao ốc hay một công sở:</noidung><s>1</s>
+		<A>GAN</A>
+		<B>WAN</B>
+		<C>MAN</C>
+		<D>LAN</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Chiều dài tối đa của một đoạn trong kiến trúc 100Base-TX:</noidung><s>1</s>
+		<A>3 km</A>
+		<B>100 mét</B>
+		<C>550 mét</C>
+		<D>25 mét</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Xét về tỷ lệ lỗi trên đường truyền dữ liệu thì loại mạng nào cao nhất:</noidung><s>1</s>
+		<A>MAN</A>
+		<B>WAN</B>
+		<C>Internet</C>
+		<D>LAN</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Độ dài tối đa cho phép khi sử dụng dây cáp mạng UTP là bao nhiêu mét:</noidung><s>1</s>
+		<A>100</A>
+		<B>200</B>
+		<C>350</C>
+		<D>400</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Quá trình dữ liệu di chuyển từ hệ thống máy tính này sang hệ thống máy tính khác phải trải qua giai đoạn nào: </noidung><s>1</s>
+		<A>Phân tích dữ liệu</A>
+		<B>Lọc dữ liệu</B>
+		<C>Đóng gói dữ liệu</C>
+		<D>Kiểm thử dữ liệu</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Khi nối mạng giữa 2 máy tính, thường sử dụng loại váp nào để nối trực tiếp giữa chúng: </noidung><s>1</s>
+		<A>Cáp quang</A>
+		<B>Cáp UTP thẳng</B>
+		<C>Cáp STP</C>
+		<D>Cáp UTP chéo</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Các quy tắc điều quản việc truyền thông mạng máy tính được gọi là:</noidung><s>1</s>
+		<A>Các giao thức</A>
+		<B>Các dịch vụ</B>
+		<C>Các hệ điều hành mạng</C>
+		<D>Các thiết bị mang tải</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Hai kiểu máy tính khác nhau có thể truyền thông nếu: </noidung><s>1</s>
+		<A>Chúng cài đặt cùng hệ điều hành mạng</A>
+		<B>Chúng tuân thủ theo mô hình OSI</B>
+		<C>Chúng cùng dùng giao thức TCP/IP</C>
+		<D>Chúng có phần cứng giống nhau</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Để kết nối hai máy tính với nhau ta có thể sử dụng: </noidung><s>1</s>
+		<A>Hub</A>
+		<B>Switch</B>
+		<C>Nối cáp trực tiếp</C>
+		<D>Tất cả đều đúng</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Biểu diễn số 125 từ cơ đố decimal sang cơ số binary:</noidung><s>1</s>
+		<A>01111101</A>
+		<B>01101111</B>
+		<C>01011111</C>
+		<D>11111010</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Số nhị phân nào dưới đây có giá trị là 164:</noidung><s>1</s>
+		<A>10100100</A>
+		<B>10010010</B>
+		<C>11000100</C>
+		<D>10101010</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Thiết bị nào hoạt động ở tầng vật lý:</noidung><s>1</s>
+		<A>Switch</A>
+		<B>Card mạng</B>
+		<C>Hub và repeater</C>
+		<D>Router</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Môi trường truyền tin thông thường trong mạng máy tính là:</noidung><s>0</s>
+		<A>Các loại cáp như: UTP, STP, cáp điện thoại, cáp quang,...</A>
+		<B>Sóng hồng ngoại</B>
+		<C>Tất cả môi trường nêu trên</C>
+		<D>Không cái gì đúng</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Các thành phần tạo nên mạng là:</noidung><s>0</s>
+		<A>Máy tính, hub, switch</A>
+		<B>Network adapter, cable</B>
+		<C>Protocol</C>
+		<D>Tất cả đều đúng</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Khẳng định nào sau đây là đúng khi nói về đặt tính để phân biệt một tế bào (cell) và một gói tin:</noidung><s>1</s>
+		<A>Các tế bào nhỏ hơn một gói tin</A>
+		<B>Các thế bào không có địa chỉ vật lý</B>
+		<C>Các tế bào có độ dài cố định</C>
+		<D>Các gói tin có độ dài cố định</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Protocol là: </noidung><s>0</s>
+		<A>Các qui tắc để cho phép các máy tính có thể giao tiếp được với nhau</A>
+		<B>Một trong những thành phần không thể thiết trong hệ thống mạng</B>
+		<C>A và B sai</C>
+		<D>A và B đúng</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Thiết bị nào sau đây được sử dụng tại trung tâm cảu mạng hình sao:</noidung><s>1</s>
+		<A>Switch, Brigde</A>
+		<B>Netcard</B>
+		<C>Port</C>
+		<D>Repeater</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Kiến trúc một mạng LAN có thể là:</noidung><s>0</s>
+		<A>RING</A>
+		<B>BUS</B>
+		<C>STAR</C>
+		<D>Có thể sử dụng riêng hoặc phối hợp cả A, B và C</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Giá trị của 11101101 (giá trị các bit nhị phân) trong cơ số 16 là:</noidung><s>1</s>
+		<A>CB</A>
+		<B>ED</B>
+		<C>CF</C>
+		<D>EC</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Mô tả nào sau đây dành cho mạng hình sao (star):
+</noidung><s>1</s>
+		<A>Truyền dữ liệu qua cáp đồng trục</A>
+		<B>Mỗi nút mạng đều kết nối trực tiếp với tất cả các nút khác</B>
+		<C>Có một nút trung tâm và các nút mạng khác kết nối đến</C>
+		<D>Các nút mạng trung tâm sử dụng chung một đường cáp</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Loại cáp nào được sử dụng phổ biến nhất hiện nay:</noidung><s>1</s>
+		<A>Cáp đồng trục</A>
+		<B>Cáp STP</B>
+		<C>Cáp UTP (CAT 5)</C>
+		<D>Cáp quang</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức mạng nào dưới đây được sử dụng trong mạng cục bộ LAN:</noidung><s>0</s>
+		<A>TCP/IP</A>
+		<B>NetBIOS</B>
+		<C>IPX</C>
+		<D>Tất cả các câu trên</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Khẳng định nào sau đâu là đứng khi nói về giao thức sử dụng trên cáp sợi quang: </noidung><s>1</s>
+		<A>Frame Relay</A>
+		<B>FDDI</B>
+		<C>SONET</C>
+		<D>Cả B và C đều đúng</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Các chuẩn Internet là: </noidung><s>1</s>
+		<A>TCP và UDP</A>
+		<B>ACK và NAK</B>
+		<C>RFC và IETF</C>
+		<D>FDM và TDM</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Giải thông (bandwidth) là: </noidung><s>1</s>
+		<A>Tốc độ truyền dữ liệu trên đường truyền</A>
+		<B>Độ đo phạm vi tần số mà đường truyền có thể đáp ứng được</B>
+		<C>Độ đo sự yếu đi của tín hiệu trên đường truyền</C>
+		<D>Độ đo sự ảnh hưởng của tiếng ồn điện tử bên ngoài đến tín hiệu đường truyền</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Thông lượng (throughtput) là: </noidung><s>1</s>
+		<A>Tốc độ truyền dữ liệu trên đường truyền</A>
+		<B>Độ đo phạm vi tần số mà đường truyền có thể áp ứng được</B>
+		<C>Độ đo sự yếu đi của tín hiệu trên đường truyền</C>
+		<D>Độ đo sự ảnh hưởng của tiếng ồn điện tử bên ngoài đến tín hiệu đường truyền</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Độ suy hao là: </noidung><s>1</s>
+		<A>Tốc độ truyền dữ liệu trên đường truyền</A>
+		<B>Độ đo phạm vi tần số mà đường truyền có thể đáp ứng được</B>
+		<C>Độ đo sự yếu đi của tính hiệu trên đường truyền</C>
+		<D>Độ đo sự ảnh hưởng của tiếng ồn điện từ bên ngoài đến tín hiệu đường truyền</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Độ nhiễu điện từ là:</noidung><s>1</s>
+		<A>Tốc độ truyền dữ liệu trên đường truyền</A>
+		<B>Độ đo phạm vi tần số mà đường truyền có thể đáp ứng được</B>
+		<C>Độ đo sự yếu đi của tín hiệu trên đường truyền</C>
+		<D>Độ đo sự ảnh hưởng của tiếng ồn điện từ bên ngoài đến tín hiệu đường truyền</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Truyền dẫn theo dài cơ sở (baseband):</noidung><s>1</s>
+		<A>Toàn bộ khả năng đường truyền được dàn cho một kênh thông tin duy nhất</A>
+		<B>Hai kênh truyền thông cùng phaai chia giải thông của đường truyền</B>
+		<C>Ba kênh truyền thông cùng phân chia giải thông của đường truyền</C>
+		<D>Nhiều kênh truyền thông cùng phân chia giải thông của đường truyền</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Truyền dẫn theo dải rộng (broadband): </noidung><s>1</s>
+		<A>Toàn bộ khả năng đường truyền được dành cho một kênh thông duy nhất</A>
+		<B>Hai kênh truyền thông cùng phân chia giải thông của đường truyền</B>
+		<C>Ba kênh truyền thông cùng phần chia giải thông của đường truyền</C>
+		<D>Nhiều kênh truyền thông cùng phân chia giải thông của đường truyền</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Thứ tự của các tầng trong mô hình tham chiếu OSI:</noidung><s>1</s>
+		<A>Physical, Data Link, Network, Transport, System, Presentation, Application</A>
+		<B>Physical, Data Link, Network, Transport, Session, Presentation, Application</B>
+		<C>Physical, Data Link, Network, Transform, Presentation, Session, Application</C>
+		<D>Presentation, Data Link, Network, Transport, Session, Physical, Application</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Thứ tự các tầng từ cao đến thấp trong mô hình TCP/IP: </noidung><s>1</s>
+		<A>Application, Internet, Transport, Network Access</A>
+		<B>Application, Network Access, Transport, Internet</B>
+		<C>Application, Transport, Internet, Network Access</C>
+		<D>Transport, Internet, Application, Network Access</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Thứ tự đúng của các đơn vị dữ liệu trong mô hình TCP/IP: </noidung><s>1</s>
+		<A>Data, Frame, Segment, Packet, Bit</A>
+		<B>Data, Segment, Frame, Packet, Bit</B>
+		<C>Data, Packet, Frame, Segment, Bit</C>
+		<D>Data, Segment, Packet, Frame, Bit</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Thứ tự các tầng của mô hình OSi theo thứ tự từ trên xuống là: </noidung><s>1</s>
+		<A>Ứng dụng, Trình diễn, Phiên, Giao vân, Liên kết, Mạng, Vật lý</A>
+		<B>Ứng dụng, Trình diễn, Phiên, Mạng, Giao vận, Liên kết, Vật lý</B>
+		<C>Ứng dụng, Trình diễn, Phiên, Giao vận, Mạng, Liên kết, Vật lý</C>
+		<D>Ứng dụng, Trình diễn, Giao vận, Phiên, Liên kết, Mạng, Vật lý</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Chức năng của tầng trình diễn là chuyển đổi:</noidung><s>1</s>
+		<A>Ngôn ngữ sử dụng về ngôn ngữ chung của mạng</A>
+		<B>Cấu trúc thông tin về cấu trúc khung</B>
+		<C>Khuôn dạng của gói tin</C>
+		<D>Các phiên truyền thông giữa các thực thể</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Chức năng của tầng giao vận là:</noidung><s>1</s>
+		<A>Vận chuyển thông tin giữa các máy chủ (End to End)</A>
+		<B>Kiểm soát lỗi và luồng dữ liệu</B>
+		<C>Đóng gói và vận chuyển thông tin</C>
+		<D>Phân mảnh và đóng gói dữ liệu</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Chức năng của tầng mạng là:</noidung><s>1</s>
+		<A>Thực hiện chọn đường</A>
+		<B>Thực hiện chuyển mạch</B>
+		<C>Kiểm soát lỗi và luồng dữ liệu</C>
+		<D>Đóng gói dữ liệu</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Chức năng của tầng liên kết dữ liệu là:</noidung><s>1</s>
+		<A>Tạo khung thông tin (Frame)</A>
+		<B>Đóng gói dữ liệu</B>
+		<C>Chọn đường</C>
+		<D>Vận chuyển thông tin giữa các máy chủ (End to End)</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Chức năng của tầng vật lý là:</noidung><s>1</s>
+		<A>Đảm bảo các yêu cầu truyền/nhận các chuỗi bit qua các phương tiện vật lý</A>
+		<B>Kiểm soát lỗi và luồng dữ liệu</B>
+		<C>Tạo khung thông tin</C>
+		<D>Phân mảnh và đóng gói dữ liệu</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Khi kết nối máy tính từ nhà vào ISP thông qua đường dây điện thoại, tín hiệu trên đường điện thoại sẽ thuộc về tầng:</noidung><s>1</s>
+		<A>Giao vận</A>
+		<B>Mạng</B>
+		<C>Liên kết dữ liệu</C>
+		<D>Vật lý</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Theo mô hình OSI, định dạng ảnh JPG nằm ở tầng:</noidung><s>1</s>
+		<A>Ứng dụng</A>
+		<B>Phiên</B>
+		<C>Trình diễn</C>
+		<D>Mạng</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Mô hình OSI chia hoạt động truyền thông thành mấy tầng:</noidung><s>1</s>
+		<A>7 tầng</A>
+		<B>5 tầng</B>
+		<C>4 tầng</C>
+		<D>3 tầng</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Các tầng của mô hình OSI theo thứ tự từ dưới lên là:</noidung><s>1</s>
+		<A>Vật lý, TCP, IP, Mạng, Giao vận, Phiên, Trình diễn và Ứng dụng</A>
+		<B>Vật lý, Liên kết dữ liệu, Giao vận, Mạng, Phiên, Trình diễn và Ứng dụng</B>
+		<C>Vật lý, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn và Ứng dụng</C>
+		<D>Vật lý, Liên kết dữ liệu, Mạng, TCP, IP, Phiên và Ứng dụng</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Tầng nào xác định giao diện giữa người sử dụng và môi trường OSI: </noidung><s>1</s>
+		<A>Tầng ứng dụng</A>
+		<B>Tầng trình diễn</B>
+		<C>Tầng phiên</C>
+		<D>Tầng vận chuyển</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Tầng nào dưới đây thiết lập, duy trì, hủy bỏ &quot;các giao dịch&quot; giữa các thực thể đầu cuối: </noidung><s>1</s>
+		<A>Tầng mạng</A>
+		<B>Tầng liên kết dữ liệu</B>
+		<C>Tầng phiên</C>
+		<D>Tầng vật lý</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Tầng nào thực hiện chuyển giao các thông điệp giữa các tiếng trình trên các thiết bị: </noidung><s>1</s>
+		<A>Tầng mạng</A>
+		<B>Tầng giao vận</B>
+		<C>Tầng liên kết dữ liệu</C>
+		<D>Tầng phiên</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Điều khiển các cuộc liên lạc là chức năng của tầng nào: </noidung><s>1</s>
+		<A>Vật lý</A>
+		<B>Tầng mạng</B>
+		<C>Tầng phiên</C>
+		<D>Tầng trình diễn</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong mô hình OSI, tầng nào thực hiện việc chọn đường và chuyển tiếp thông tin: </noidung><s>1</s>
+		<A>Network</A>
+		<B>Transport</B>
+		<C>Session</C>
+		<D>Data Link</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong mô hình OSI, việc mở và đóng các cuộc hội thoại giữa các máy tính là trách nhiệm của: </noidung><s>1</s>
+		<A>Tầng phiên</A>
+		<B>Tầng giao vận</B>
+		<C>Tầng liên kết dữ liệu</C>
+		<D>Tầng vật lý</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong mô hình OSI, đâu là mối qua hệ của một tầng (N) đối với tầng bên trên nó (N + 1): </noidung><s>1</s>
+		<A>Tầng N cung cấp các dịch vụ cho tầng N + 1</A>
+		<B>Tầng N + 1 bổ sung một phần đầu vào thông tin nhận được từ tầng N</B>
+		<C>Tầng N vận dụng các dịch vụ do tầng N + 1 cung cấp</C>
+		<D>Tầng N không có tác động gì lên tầng N + 1</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong mô hình mạng Internet, chuẩn UNICODE (cho việc mã hóa các ký tự) sẽ nằm ở tần: </noidung><s>1</s>
+		<A>Ứng dụng</A>
+		<B>Giao vận</B>
+		<C>Mạng</C>
+		<D>Liên kết dữ liệu</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Theo mô hình OSI, định dạng ảnh JPG nằm ở tầng: </noidung><s>1</s>
+		<A>Ứng dụng</A>
+		<B>Phiên</B>
+		<C>Trình diễn</C>
+		<D>Mạng</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Đơn vị dữ liệu ở tầng presetation là: </noidung><s>1</s>
+		<A>Byte</A>
+		<B>Data</B>
+		<C>Frame</C>
+		<D>Packet</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Chọn chức năng của tầng Presentation:</noidung><s>0</s>
+		<A>Mã hóa dữ liệu và nén dữ liệu</A>
+		<B>Cung cấp các dịch vụ mạng người dùng</B>
+		<C>Đánh địa chỉ</C>
+		<D>Tất cả đều sai</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Tầng nào trong mô hình OSI chịu trách nhiệm mã hóa dữ liệu</noidung><s>1</s>
+		<A>Application</A>
+		<B>Presentation</B>
+		<C>Session</C>
+		<D>Transport</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Tầng nào trong mô hình OSI làm việc với các tín hiệu điện: </noidung><s>1</s>
+		<A>Data Link</A>
+		<B>Network</B>
+		<C>Physical</C>
+		<D>Transprot</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Mô hình TCP/IP chia hoạt dộng truyền thông thành mấy tầng</noidung><s>1</s>
+		<A>7 tầng</A>
+		<B>6 tầng</B>
+		<C>4 tầng</C>
+		<D>3 tầng</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Thứ tự từ thấp đến cao trong mô hình TCP/IP: </noidung><s>1</s>
+		<A>Ứng dụng, Mạng, Giao vận, Truy nhập mạng</A>
+		<B>Mạng, Giao vận, Truy nhập mạng, Ứng dụng</B>
+		<C>Truy nhập mạng, Mạng, Giao vận, Ứng dụng</C>
+		<D>Truy nhập mạng, Giao vận, Mạng, ứng dụng</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Đơn vị dữ liệu ở tầng Data Link là:</noidung><s>1</s>
+		<A>Byte</A>
+		<B>Data</B>
+		<C>Frame</C>
+		<D>Packet</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Đơn vị dữ liệu ở tầng Internet là:</noidung><s>1</s>
+		<A>Byte</A>
+		<B>Data</B>
+		<C>Frame</C>
+		<D>Datagram</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Chức năng của tầng ứng dụng là: </noidung><s>1</s>
+		<A>Tạo khung thông tin (Frame)</A>
+		<B>Đóng gói dữ liệu</B>
+		<C>Cung cấp các phương tiện để người dùng có thể truy nhập được vào môi trường mạng</C>
+		<D>Vận chuyển thông tin giữa các máy chủ (End to End)</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>FTP là từ viết tắt của: </noidung><s>1</s>
+		<A>File Transfer Protocol</A>
+		<B>Folder Transfer Protocol</B>
+		<C>Protocol Transfer Program</C>
+		<D>Protocol Transfer Folder</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>HTTP là từ viết tắt của: </noidung><s>1</s>
+		<A>HyperText Transmison Protocol</A>
+		<B>HyperText Transit Protocol</B>
+		<C>HyperText Transfer Protocol</C>
+		<D>HyperText Treat Protocol</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức POP3 sử dụng cổng dịch vụ số: </noidung><s>1</s>
+		<A>53</A>
+		<B>23</B>
+		<C>25</C>
+		<D>110</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Dịch vụ DNS có chức năng chính là gì: </noidung><s>0</s>
+		<A>Phân giải tên netbios</A>
+		<B>Phân giải tên miền (IP sang tên và ngược lại)</B>
+		<C>Phân giải địa chỉ MAC</C>
+		<D>Tất cả đều sai</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Nhược điểm nếu xây dựng hệ thống dịch vụ tên miền (DNS) theo mô hình tập trung là: </noidung><s>0</s>
+		<A>Nếu điểm tập trung bị hỏng, toàn bộ hệ thống sẽ bị tê liệt</A>
+		<B>Số lượng yêu cầu phục vụ tại điểm tập trung duy nhất sẽ rất lớn</B>
+		<C>Chi phí bảo trì hệ thống rất lớn</C>
+		<D>Tất cả câu trả lời trên</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Số hiệu cổng (port) của giao thức truyền mail SMTP là: </noidung><s>1</s>
+		<A>23</A>
+		<B>25</B>
+		<C>21</C>
+		<D>110</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức truyền thông trong DNS sử dụng cổng dịch vụ số: </noidung><s>1</s>
+		<A>21 </A>
+		<B>25</B>
+		<C>53</C>
+		<D>110</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong số các cặp giao thức và cổng dịch vụ sau, cặp nào là sai: </noidung><s>1</s>
+		<A>SMTP:TCP Port 25</A>
+		<B>FTP:UDP Port 22</B>
+		<C>HTTP:TCP Port 80</C>
+		<D>DNS:UDP Port 53</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức nào sau đây hoạt động trên nền giao thức UDP</noidung><s>0</s>
+		<A>ARP</A>
+		<B>DNS</B>
+		<C>Telnet</C>
+		<D>Tất cả đều đúng</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Khẳng định nào sau đây là đúng khi nói về ngôn ngữ đánh dấu siêu văn bản HTML: </noidung><s>1</s>
+		<A>Là một thủ tục World Wide Web</A>
+		<B>Phương thức liên kết các file văn bản</B>
+		<C>Là công cụ soạn thảo trang thông tin Web</C>
+		<D>Giao diện Web</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Khẳng định nào sau đây là đúng khi nói về tên gọi loại máy chủ cung cấp dịch vụ thư điện tử: </noidung><s>1</s>
+		<A>Web Server</A>
+		<B>Mail Server</B>
+		<C>FTP Server</C>
+		<D>Proxy</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Khẳng định nào sau đây là đúng khi nói về đơn vị dữ liệu của tầng Ứng dụng (Application): </noidung><s>1</s>
+		<A>Message (Thông điệp)</A>
+		<B>Segment/Datagram (Đoạn/Bó dữ liệu)</B>
+		<C>Packet (Gói dữ liệu)</C>
+		<D>Frame (Khung dữ liệu)</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>HTTP (HyperText Transfer Protocol) là: </noidung><s>1</s>
+		<A>Giao thức ứng dụng cho phép các máy tính giao tiếp với nhau qua Web và có khả năng liên kết các trang Web với nhau</A>
+		<B>Giao thức tầng vận chuyển cho phép truyền tải các trang Web</B>
+		<C>Một thành phần tên miền</C>
+		<D>Giao diện Web</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Các giao thức ứng dụng hoạt động trên: </noidung><s>1</s>
+		<A>Tần trình diễn</A>
+		<B>Tầng phiên</B>
+		<C>Tầng ứng dụng</C>
+		<D>Tầng liên kết dữ liệu</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>HTTP làm nhiệm vụ gì: </noidung><s>1</s>
+		<A>Cung cấp một cơ chế để lấy dữ liệu từ server chuyển đến client</A>
+		<B>Hiển thị các trang Web từ xa trên màn hình và giúp người dùng tương tác với chúng</B>
+		<C>Cung cấp giao diện người dùng như các nút bấm, thanh trượt, ...</C>
+		<D>Cung cấp dữ liệu từ server sử dụng giao thức chuyển file (File Transport Protocol)</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Trên Internet, email được gửi từ máy nguồn bằng cách thiết lập một kết nối TCP đến một cổng cụ thể trên máy đích. Cổng đó là: </noidung><s>1</s>
+		<A>80</A>
+		<B>110</B>
+		<C>25</C>
+		<D>404</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Giả sử có một bản ghi của dịch vụ DNS là (cnn.com, r1.infor.cnn.com, CNAME)</noidung><s>0</s>
+		<A>cnn.com là tên viết tắt (rút gọn) của r1.infor.cnn.com</A>
+		<B>r1.infor.cnn.com là tên viết tắt (rút gọn) của cnn.com</B>
+		<C>Cả A và B đều đúng</C>
+		<D>Cả A và B đều sai</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức được sử dụng để 2 bên truyền file là: </noidung><s>1</s>
+		<A>HTTP</A>
+		<B>FTP</B>
+		<C>SMTP</C>
+		<D>SNMP</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Giả sử có một bản ghi dịch vụ DNS là (alpha.com, 123.4.5.7, NS). Chọn câu trả lời đúng: </noidung><s>0</s>
+		<A>123.4.5.7 là địa chỉ IP của máy alpha.com</A>
+		<B>alpha.com là một tên miền, không phải là một máy</B>
+		<C>123.4.5.7 là địa chỉ IP của máy phục vụ thư (mail server) có tên miền là google.com</C>
+		<D>Tất cả đều sai</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Giả sử tất cả các máy tính thuê bao Internet của FPT khi truy cập vào website google.com đều bị chuyển hướng sang một trang web khác. Các máy tính thuê bao các ISP khác không gặp tình huống này. Nguyên nhân gây ra lỗi lớn nhất sẽ là: </noidung><s>1</s>
+		<A>Các máy tính bị nhiễm virus</A>
+		<B>Website google bị lỗi</B>
+		<C>DNS server của FPT bị lỗi</C>
+		<D>Router ra ngoài của ISP FPT bị lỗi</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Các Web client thường được gọi là gì: </noidung><s>1</s>
+		<A>Netscape Navigator</A>
+		<B>Browers</B>
+		<C>Mosaic</C>
+		<D>HTML interpreter (trình thông dịch HTML)</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Web server thường sử dụng phần mềm chạy trên: </noidung><s>1</s>
+		<A>Cổng 25</A>
+		<B>Cổng 404</B>
+		<C>Cổng 125</C>
+		<D>Cổng 80</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Để thiết kế một trang Web như chúng ta vẫn thấy trên màn hình (các định dạng font chữ, màu sắc, các hiệu ứng đồ họa, các đường liên kết), người ta đã phát triển một kiểu định dạng đặc biệt. Định dạng trang chuẩn được dùng trong Web là: </noidung><s>1</s>
+		<A>HTTP</A>
+		<B>Mosaic</B>
+		<C>HTML</C>
+		<D>Netscape</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Phát biểu nào sau đây là đúng về giao thức HTTP: </noidung><s>0</s>
+		<A>Phiên bản giao thức luôn đươc cài đặt trong tất cả thông điệp</A>
+		<B>Tất cả các tiêu đề đều dưới dạng text</B>
+		<C>Tất cả dữ liệu đều truyền dưới dạng văn bản (text)</C>
+		<D>A và B</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong những thông điệp HTTP trả lời dưới đây, thông điệp nào đúng: </noidung><s>1</s>
+		<A>200 "OK"</A>
+		<B>201 "Moved Permanetly"</B>
+		<C>404 "Not Modified"</C>
+		<D>20 "Not Implemented"</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Những thông điệp nào dưới đây được giao thức POP3 hỗ trợ: </noidung><s>1</s>
+		<A>Kiểm chứng (Authorization)</A>
+		<B>Đọc một thư (Retrieving a message)</B>
+		<C>Xóa một thư</C>
+		<D>Tất cả đều đúng</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức nào thuộc tầng Application</noidung><s>1</s>
+		<A>IP</A>
+		<B>HTTP</B>
+		<C>NFS</C>
+		<D>TCP</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Cho biết ứng dụng nào thuộc loại Client/Server: </noidung><s>1</s>
+		<A>WinWord</A>
+		<B>WWW (World Wide Web)</B>
+		<C>Excel</C>
+		<D>Photoshop</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Mã 404 trong thông điệp trả lời từ Web server cho Web client có ý nghĩa: </noidung><s>1</s>
+		<A>Server không hiểu yêu cầu của client</A>
+		<B>Đối tượng client yêu cầu không có</B>
+		<C>Không có câu trả lời nào đúng</C>
+		<D>Yêu cầu của Client không hợp lệ</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức được sử dụng để truyền thư giữa các máy chủ phục vụ thư (Mail server) là: </noidung><s>1</s>
+		<A>HTTP</A>
+		<B>FTP</B>
+		<C>SMTP</C>
+		<D>POP</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Ứng dụng nào sử dụng mô hình client/server: </noidung><s>1</s>
+		<A>Bit Torrent</A>
+		<B>Email, Web</B>
+		<C>Skype</C>
+		<D>KaZaA</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Ứng dụng nào sử dụng mô hình P2P: </noidung><s>1</s>
+		<A>Telnet</A>
+		<B>Email</B>
+		<C>Web</C>
+		<D>Skype</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Các ứng dụng dùng giao thức TCP: </noidung><s>1</s>
+		<A>Web, truyền file, Email</A>
+		<B>Web, DNS, điện thoại Internet</B>
+		<C>Hội thảo từ xa, điện thoại Internet, streaming media</C>
+		<D>Telnet, DNS, Email</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Các ứng dụng dùng giao thức UDP: </noidung><s>1</s>
+		<A>Web, truyền file, Email</A>
+		<B>Web, DNS, điện thoại Internet</B>
+		<C>Hội thảo từ xa, điện thoại Internet, streaming media</C>
+		<D>Telnet, DNS, Email</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Định danh (identifer) của tiến trình bao gồm: </noidung><s>1</s>
+		<A>Địa chỉ IP của host</A>
+		<B>Địa chỉ IP và số hiệu cổng liên kết với tiến trình trên host</B>
+		<C>Địa chỉ IP nguồn và địa chỉ IP đích</C>
+		<D>Địa chỉ IP nguồn, số hiệu cổng nguồn, địa chỉ IP đích, số hiệu cổng đích</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Đâu là một URL: </noidung><s>1</s>
+		<A>www.someschool.edu</A>
+		<B>192.168.1.1</B>
+		<C>.../someDept/pic.gif</C>
+		<D>www.someschool.edu/someDept/pic.gif</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>RTT (Round Trip Time) là: </noidung><s>1</s>
+		<A>Thời gian khởi tạo kết nối TCP</A>
+		<B>Thời gian để gửi một gói nhỏ đi từ client đến server</B>
+		<C>Thời gian để gửi một gói nhỏ đi từ client đến server và quay lại</C>
+		<D>Thời gian truyền file</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong cơ sở dữ liệu của DNS lưu trữ các resource record (RR) có dạng: </noidung><s>1</s>
+		<A>(name, value, type, ttl)</A>
+		<B>(value, name, ttl, type)</B>
+		<C>(value, ttl, name, type)</C>
+		<D>(name, type, ttl, value)</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Những giao thức nào sau đây thuộc tầng vận chuyển (Transport Layer) trong mô hình TCP/IP: </noidung><s>0</s>
+		<A>UDP</A>
+		<B>IP</B>
+		<C>TCP</C>
+		<D>Cả A và C đều đúng</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức nào cung cấp tính năng vận chuyển gói tin có độ tin cậy cao: </noidung><s>1</s>
+		<A>UDP</A>
+		<B>TCP</B>
+		<C>ARP</C>
+		<D>IP</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Trường Window trong header của gói TCP liên quan đến: </noidung><s>0</s>
+		<A>Kích thước bộ nhớ khả dụng</A>
+		<B>Hệ điều hành</B>
+		<C>Kích thước màn hình</C>
+		<D>Tất cả đều sai</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Gói tin TCP yêu cầu kết nối sẽ có giá trị của các cờ: </noidung><s>1</s>
+		<A>RST = 1, SYN = 1</A>
+		<B>ACK = 1, SYN = 1</B>
+		<C>ACK = 0, SYN = 1</C>
+		<D>FIN = 1, SYN = 0</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>TCP và UDP hoạt động ở tầng nào trong mô hình OST: </noidung><s>1</s>
+		<A>Session (Tầng 5)</A>
+		<B>Transport (Tầng 4)</B>
+		<C>Network (Tầng 3)</C>
+		<D>Data Link (Tầng 2)</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Khằng định nào sau đây là đúng khi nói về kỹ thuật sử dụng băng thông hiệu quả: </noidung><s>1</s>
+		<A>Điền khiển luồng cửa sổ tĩnh</A>
+		<B>Điều kiển luồng tốc độ đảm bảo</B>
+		<C>Điểu khiển luồng cửa sổ động</C>
+		<D>Điều khiển luồng tốc độ động</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức TCP hoạt động cùng tầng với những giao thức nào: </noidung><s>1</s>
+		<A>ARP, RARP</A>
+		<B>UDP</B>
+		<C>TELNET, FTP</C>
+		<D>IP, ARP</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Các giao thức TCP và UDP hoạt động ở tần nào: </noidung><s>1</s>
+		<A>Application</A>
+		<B>Network</B>
+		<C>Transport</C>
+		<D>Presentation</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức UDP được sử dụng cho những ứng dụng: </noidung><s>1</s>
+		<A>Có yêu cầu liên kết</A>
+		<B>Đòi hỏi độ tin cậy cao</B>
+		<C>Yêu cầu độ trễ nhỏ</C>
+		<D>Không đòi hỏi độ tin cậy cao</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Tầng giao vận Host to Host hoạt động bởi giao thức: </noidung><s>1</s>
+		<A>TCP</A>
+		<B>IP</B>
+		<C>ICMP</C>
+		<D>ARP</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong gói dữ liệu UDP (UDP segment), vùng dữ liệu thực sự bắt đầu từ byte thứ: </noidung><s>1</s>
+		<A>4</A>
+		<B>5</B>
+		<C>8</C>
+		<D>9</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Đẳng thức nào sau đây mô tả chính xác nhất giao thức UDP: </noidung><s>1</s>
+		<A>UDP = IP</A>
+		<B>UDP = TCP - (tính tin cậy)</B>
+		<C>UDP = ICMP + (phân kênh theo địa chỉ cổng)</C>
+		<D>UDP = TCP - IP</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Để phát hiện lỗi trong gói tin, người ta sử dụng kỹ thuật: </noidung><s>1</s>
+		<A>Số thứ tự (sequence number)</A>
+		<B>Số thứ tự ghi nhận (acknowledgement number)</B>
+		<C>Bộ định thời (timer)</C>
+		<D>Checksum</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Khi thực thể TCP gửi một gói SYNACK segment với trường Acknowledgement Number = 100, điều này có nghĩa là: </noidung><s>1</s>
+		<A>Gói dữ liệu nói gửi đi bắt đầu bằng byte thứ 100 trong dòng dữ liệu</A>
+		<B>Byte dữ liệu đầu tin trong dòng dữ liệu sẽ gửi đi có số thứ tự là 100</B>
+		<C>Nó sẽ gửi từ byte thứ 100</C>
+		<D>Nó hy vọng nhận được dữ liệu bắt đầu bằng byte có số thứ tự 100</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức giao vận chạy phía trên IP mà không cần thiết lập kết nối trước khi truyền là: </noidung><s>1</s>
+		<A>UDP</A>
+		<B>TCP</B>
+		<C>HTTP</C>
+		<D>FTP</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức TCP có thể xử lý: </noidung><s>0</s>
+		<A>Gói tin bị mất</A>
+		<B>Các gói tin bị trùng lặp</B>
+		<C>Các gói tin không theo thứ tự</C>
+		<D>Tất cả các phương án trên</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Checksum trong gói dữ liệu UDP có độ dài: </noidung><s>1</s>
+		<A>4 bit</A>
+		<B>8 bit</B>
+		<C>16 bit</C>
+		<D>32 bit</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Vị trí dữ liệu thực sự trong gói dữ liệu TCP bắt đầu từ byte: </noidung><s>1</s>
+		<A>40</A>
+		<B>32</B>
+		<C>5</C>
+		<D>Không xác định</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Giả sử TCP A cần gửi 1500 byte cho thực thể giao vận B. Gói thứ nhật chứa 1000 byte dữ liệu, trường Sequence Number của gói này là 100. Trường Sequence Number của gói thứ hai sẽ là: </noidung><s>1</s>
+		<A>1101</A>
+		<B>1100</B>
+		<C>500</C>
+		<D>501</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Với giao thức TCP, bên nhận sẽ thông báo lại cho bên gửi về số lượng tối đa dữ liệu mà nó có thể nhận được. Giá trị này được xác định tại trường: </noidung><s>1</s>
+		<A>Sequence Number</A>
+		<B>Acknowledgement Number</B>
+		<C>Rcvr Number</C>
+		<D>Header length</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Sau khi thực thể TCP gửi đi gói SYN segment với trường Sequence Number = 100, nó nhận được gói ACKSYN với trường Sequence Number = 200. Trường Acknowledgment Number của gói ACKSYN này sẽ là: </noidung><s>1</s>
+		<A>100</A>
+		<B>101</B>
+		<C>200</C>
+		<D>201</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Giả sử ứng dụng tạo ra một thông điệp 60 byte. Thông điệp này được đặt trong TCP segment rồi sau đó là IP datagram. Giả sử cả gói TCP lẫn gói IP không có trường dữ liệu đặc biệt (Optional = 0). Trong mỗi IP datagram sẽ chứa bao nhiêu phần trăm dữ liệu thật sự: </noidung><s>1</s>
+		<A>20%</A>
+		<B>40%</B>
+		<C>60%</C>
+		<D>80%</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>TCP port mặc định được sử dụng FTP server có giá trị là bao nhiêu: </noidung><s>1</s>
+		<A>20 và 21</A>
+		<B>80 và 8080</B>
+		<C>110 và 80</C>
+		<D>8080 và 1080</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong gói dữ liệu UDP (UDP segment), địa chỉ dùng để xác định tiến trình nhận nằm ở: </noidung><s>1</s>
+		<A>Byte 1 và 2 </A>
+		<B>Byte 3 và 4</B>
+		<C>Byte 5 và 6</C>
+		<D>Không xác định</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Các protocol TCP và UDP hoạt động ở tẩng nào trong các tầng sau đây: </noidung><s>1</s>
+		<A>Transport</A>
+		<B>Network</B>
+		<C>Application</C>
+		<D>Presentation</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức TCP làm việc ở tầng nào của mô hình OSI: </noidung><s>1</s>
+		<A>Tầng ứng dụng</A>
+		<B>Tầng giao vận</B>
+		<C>Tầng mạng</C>
+		<D>Tầng liên kết dữ liệu</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức nào dưới đây không đảm bảo dữ liệt gửi đi có tới máy nhận hoàn chỉnh hay không: </noidung><s>1</s>
+		<A>TCP</A>
+		<B>ASP</B>
+		<C>UDP</C>
+		<D>ARP</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Các giao thức của tầng giao vận (Transport): </noidung><s>1</s>
+		<A>Kiểm soát việc truyền tin giữa hai tiến trình trên mạng</A>
+		<B>Kiểm soát nội dung thông điệp trao đổi giữa hai tiến trình và hành vi của mỗi bên khi nhận được thông điệp</B>
+		<C>Kiểm soát việc truyền tin giữa hai máy tính trên mạng máy tính</C>
+		<D>Kiểm soát việc truyền dữ liệu giữa hai máy tính trên cùng một môi trường truyền</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Giả sử trường Length của một gói dữ liệu UDP có giá trị 150. Dữ liệu thực sự sẽ có: </noidung><s>1</s>
+		<A>67 byte</A>
+		<B>142 byte</B>
+		<C>150 byte</C>
+		<D>158 byte</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Quan sát một người đang truy cập một trang web, thấy anh ta gõ đường dẫn như sau: http://www.tomang.net:3000. Hãy cho biết Server web mà trang web trên sử dụng TCP port như thế nào: </noidung><s>1</s>
+		<A>Sử dụng port mặc định</A>
+		<B>Không sử dụng port mặc định</B>
+		<C>Sử dụng port chuẩn</C>
+		<D>Sử dụng port dành riêng cho Web server</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>UDP socket được xác định bởi: </noidung><s>1</s>
+		<A>Địa chỉ IP nguồn, địa chỉ IP đích</A>
+		<B>Địa chỉ IP nguồn, số port nguồn</B>
+		<C>Địa chỉ IP đích, số port đích</C>
+		<D>Địa chỉ IP nguồn, địa chỉ IP đích, số port nguồn, số port đích</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>TCP socket được xác định bởi: </noidung><s>1</s>
+		<A>Địa chỉ IP nguồn, đia chỉ IP đích</A>
+		<B>Địa chỉ IP nguồn, số port nguồn, địa chỉ IP đích</B>
+		<C>Địa chỉ IP nguồn, địa chỉ IP đích, số port đích</C>
+		<D>Địa chỉ IP nguồn, số port nguồn, địa chỉ IP đích, số port đích</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức truyền tin cậy (rdt-reliable data transfer protocol) cần được sử dụng trên: </noidung><s>0</s>
+		<A>Các kênh truyền có độ tin cậy cao</A>
+		<B>Các kênh truyền không tin cậy</B>
+		<C>Cả hai trường hợp trên đều đúng</C>
+		<D>Cả hai trường hợp trên đều sai</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Độ phức tạp cảu giao thức truyền tin cậy (rdt-reliable data transfer protocol) phụ thuộc vào: </noidung><s>1</s>
+		<A>Kiến trúc mạng</A>
+		<B>Các thiết bị mạng (router, switch, hub...)</B>
+		<C>Các đặc tính của kênh truyền</C>
+		<D>Khoảng cách giữa các hosts</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Byte đầu tiên của một địa chỉ IP có dạng: 11100001. Vậy nó thuộc lớp nào: </noidung><s>1</s>
+		<A>Lớp B</A>
+		<B>Lớp C</B>
+		<C>Lớp D</C>
+		<D>Lớp E</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong mạng máy tính dùng giao thức TCP/IP và đề dùng Subnet Mask là 255.255.255.0 thì cặp máy tính nào sau đây liên thông: </noidung><s>1</s>
+		<A>192.168.1.3 và 192.168.100.1</A>
+		<B>192.168.15.1 và 192.168.15.254</B>
+		<C>192.168.100.15 và 192.168.100.16</C>
+		<D>172.25.11.1 và 172.26.11.2</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Cho địa chỉ 192.64.10.0/28. Hãy cho biết số lượng mạng con và số lượng máy trên mỗi mạng con: </noidung><s>1</s>
+		<A>6 mạng con, mỗi mạng con có 30 máy</A>
+		<B>14 mạng con, mỗi mạng con có 14 máy</B>
+		<C>16 mạng con, mỗi mạng con có 16 máy</C>
+		<D>8 mạng con, mỗi mạng con có 32 máy</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Một mạng lớp B cần chia thành 3 mạng con sử dụng Subnet mask nào sau đây: </noidung><s>1</s>
+		<A>255.255.224.0</A>
+		<B>255.0.0.255</B>
+		<C>255.255.192.0</C>
+		<D>255.255.255.224</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Cho kết xuất lệnh route print trên máy X như sau: ...Máy X có địa chỉ IP: </noidung><s>1</s>
+		<A>0.0.0.0</A>
+		<B>172.16.9.12</B>
+		<C>127.0.0.1</C>
+		<D>172.16.9.0</D>
+		<Ans>O</Ans>
+	</entry>
+	<entry>
+		<noidung>Các địa chỉ IP cùng mạng con với địa chỉ 131.107.2.56/28: </noidung><s>1</s>
+		<A>Từ 131.107.2.48 đến 131.107.2.63</A>
+		<B>Từ 131.107.2.49 đến 131.107.2.63</B>
+		<C>Từ 131.107.2.48 đến 131.107.2.62</C>
+		<D>Từ 131.107.2.55 đến 131.107.2.126</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Địa chỉ IP nào sau đây cùng địa chỉ mạng (Subnet) với địa chỉ IP 192.168.1.10/24: </noidung><s>1</s>
+		<A>192.168.10.1/24</A>
+		<B>192.168.1.256/24</B>
+		<C>192.168.11.12/24</C>
+		<D>192.168.1.33/24</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Để biết một địa chỉ IP thuộc lớp địa chỉ nào, căn cứ vào: </noidung><s>1</s>
+		<A>Giá trị của octet (byte) đầu tiên</A>
+		<B>Giao thức ARP</B>
+		<C>Số đầu chấm trong địa chỉ</C>
+		<D>Địa chỉ của DHCP</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Một địa chỉ mạng lớp C được chia thành 5 mạng con (Subnet). Mặt nạ mạng (Subnet mask) cần dùng: </noidung><s>1</s>
+		<A>255.255.255.224</A>
+		<B>255.255.255.252</B>
+		<C>255.255.255.240</C>
+		<D>255.255.255.248</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong địa chỉ IPv4, có 5 lớp tất cả: A, B, C, D, E. Lớp C là lớp có dãy địa chỉ: </noidung><s>1</s>
+		<A>224.0.0.0 tới 239.255.255.255</A>
+		<B>192.0.0.0 tới 223.255.255.255</B>
+		<C>128.0.0.0 tới 191.255.255.255</C>
+		<D>240.0.0.0 tới 255.255.255.255</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Địa chỉ IP nào sau đây là hợp lệ: </noidung><s>0</s>
+		<A>230.20.30.40</A>
+		<B>192.168.1.2</B>
+		<C>255.255.255.255</C>
+		<D>Tất cả các câu trên</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Cho địa chỉ IP: 192.168.5.39/28. Cho biết địa chỉ mạng của địa chỉ IP này: </noidung><s>1</s>
+		<A>192.168.5.39</A>
+		<B>192.168.5.32</B>
+		<C>192.168.5.0</C>
+		<D>Tất cả đều sai</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>IPv4 có bao nhiêu địa chỉ IP: </noidung><s>1</s>
+		<A>2^12</A>
+		<B>2^22</B>
+		<C>2^32</C>
+		<D>2^42</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>IPv4, lớp B có số NetIDs/HostIDs sử dụng tương ứng là: </noidung><s>1</s>
+		<A>2^11/(2^21 - 2)</A>
+		<B>2^14/(2^16 - 2)</B>
+		<C>2^13/(2^19 - 2)</C>
+		<D>2^10/(2^22 - 2)</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức OSPF sử dụng thuật toán tìm đường đi nào: </noidung><s>1</s>
+		<A>Flooding</A>
+		<B>Distance vector routing</B>
+		<C>Link state</C>
+		<D>Bellman-Ford</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức RIP sử dụng thuật toán tìm đường đi nào: </noidung><s>1</s>
+		<A>Flooding</A>
+		<B>Distance vector routing</B>
+		<C>Link state</C>
+		<D>Bellman-Ford</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Thông điệp ICMP được đặt trong gói dữ liệu: </noidung><s>1</s>
+		<A>UDP</A>
+		<B>TCP</B>
+		<C>IP</C>
+		<D>Không xác định</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Địa chỉ IP nào sau đây là hợp lệ: </noidung><s>0</s>
+		<A>192.168.1.2</A>
+		<B>255.255.255.254</B>
+		<C>10.20.30.40</C>
+		<D>A và C đều đúng</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Địa chỉ lớp nào cho phép mượn 15 bits để chia subnet: </noidung><s>0</s>
+		<A>Lớp A</A>
+		<B>Lớp B</B>
+		<C>Lớp C</C>
+		<D>Không câu nào đúng</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức nào sau đây thuộc tầng mạng (Internet Layer) trong mô hình TCP/IP: </noidung><s>0</s>
+		<A>FTP</A>
+		<B>IP</B>
+		<C>ARP</C>
+		<D>Cả B và C đều đúng</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Việt Nam được trung tâm thông tin Châu Á Thái Bình Dương APNIC phân địa chỉ IP thuộc lớp nào: </noidung><s>1</s>
+		<A>Lớp A</A>
+		<B>Lớp B</B>
+		<C>Lớp C</C>
+		<D>Lớp D</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Địa chỉ IP 203.162.0.11 thuộc địa chỉ lớp nào: </noidung><s>1</s>
+		<A>Lớp A</A>
+		<B>Lớp B</B>
+		<C>Lớp C</C>
+		<D>Lớp D</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Những thuật ngữ nào dùng để mo tả các đơn vị dữ liệu tại tầng mạng: </noidung><s>0</s>
+		<A>Datagram</A>
+		<B>Khung (Frame)</B>
+		<C>Gói tin (Packet)</C>
+		<D>Cả A và C đều đúng</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức IP là giao thức: </noidung><s>1</s>
+		<A>Hướng liên kết</A>
+		<B>Không liên kết</B>
+		<C>Đòi hỏi độ tin cậy cao trong quá trình trao đổi thông tin</C>
+		<D>Yêu cầu kiểm soát luông và kiểm soát lỗi</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Cấu trúc khuôn dạng của địa chỉ IP lớp A là: </noidung><s>1</s>
+		<A>Bit 1: 0, bit 2-8: NetID, 9-32: HostID</A>
+		<B>Bit 1: 0, bit 2-16: NetID, 17-32: HostID</B>
+		<C>Bit 1-2: 10, bit 3-8: NetID, 9-32: HostID</C>
+		<D>Bit 1-2: 10, bit 3-16: NetID, 17-32: HostID</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Cấu trúc không dạng của địa chỉ IP lớp B là:</noidung><s>1</s>
+		<A>Bit 1: 0, bit 2-8: NetID, 9-32: HostID</A>
+		<B>Bit 1: 0, bit 2-16: NetID, 17-32: HostID</B>
+		<C>Bit 1-2: 10, bit 3-8: NetID, 9-32: HostID</C>
+		<D>Bit 1-2: 10, bit 3-16: NetID, 17-32: HostID</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Địa chỉ mạng NetID: 192.168.0.32/27 có dãy địa chỉ máy HostID sử dụng tương ứng là: </noidung><s>1</s>
+		<A>192.168.0.33 => 192.168.0.63</A>
+		<B>192.168.0.32 => 192.168.0.64</B>
+		<C>192.168.0.32 => 192.168.0.62</C>
+		<D>192.168.0.33 => 192.168.0.62</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong Header của IP Packet có chứa: </noidung><s>1</s>
+		<A>Địa chỉ nguồn</A>
+		<B>Địa chỉ đích</B>
+		<C>Không chứa địa chỉ nào cả</C>
+		<D>Cả địa chỉ nguồn và địa chỉ đích</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức nào được router hay máy tính sử dụng để thông báo cho các máy tính khác về tình trạng lỗi: </noidung><s>1</s>
+		<A>TCP</A>
+		<B>UDP</B>
+		<C>IP</C>
+		<D>ICMP</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Dịch vụ mạng nào sau đây phải dựa trên ICMP: </noidung><s>1</s>
+		<A>DNS</A>
+		<B>Ping</B>
+		<C>SMTP</C>
+		<D>X Windows</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Giải pháp nào sau đây có thể giải quyết tình trạng khan hiếm địa chỉ IP: </noidung><s>0</s>
+		<A>IPv6</A>
+		<B>Network Address Translation</B>
+		<C>Subnet mask</C>
+		<D>Tất cả các phương án trên</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức RIP được triển khai tại: </noidung><s>1</s>
+		<A>Máy tính đầu cuối</A>
+		<B>Router</B>
+		<C>Hub</C>
+		<D>Switch</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức nào trong số các giao thức sau thuộc tầng mạng: </noidung><s>1</s>
+		<A>TCP</A>
+		<B>Telnet</B>
+		<C>FTP</C>
+		<D>IP</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong mạng máy tính dùng giao thức TCP/IP và Subnet Mask là 255.255.255.224 hãy xác định địa chỉ broadcast của mạng nếu biết rằng một máy tính trong mạng có địa chỉ là 192.168.1.1: </noidung><s>1</s>
+		<A>192.168.1.31</A>
+		<B>192.168.1.255</B>
+		<C>192.168.1.15</C>
+		<D>192.168.1.96</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Router hoạt động tại tầng nào trong mô hình OSI: </noidung><s>1</s>
+		<A>Network Layer</A>
+		<B>Data Link Layer</B>
+		<C>Transport Layer</C>
+		<D>Application Layer</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Nếu 4 PCs kết nối với nhau thông qua HUB thì cần bao nhiêu địa chỉ IP cho 5 trang thiết bị mạng này: </noidung><s>1</s>
+		<A>1</A>
+		<B>3</B>
+		<C>4</C>
+		<D>2</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Các thiết bị mạng nào sau đây có khả năng duy trì và trao đổi thông tin với nhau về hiện trạng của toàn bộ mạng trong một xí nghiệp hoặc một khuôn viên: </noidung><s>1</s>
+		<A>Bridge</A>
+		<B>Router</B>
+		<C>Repeater</C>
+		<D>Connector</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Router là một thiết bị dùng để: </noidung><s>1</s>
+		<A>Định tuyến giữa các mạng</A>
+		<B>Lọc các gói tin dư thừa</B>
+		<C>Mở rộng một hệ thống mạng</C>
+		<D>Cả 3 đều đúng</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Thiết bị Router cho phép: </noidung><s>1</s>
+		<A>Kéo dài 1 nhánh LAN thông qua việc khuếch đại tín hiệu truyền đến nó</A>
+		<B>Kết nối nhiều máy tính lại với nhau</B>
+		<C>Liên kết nhiều mạng LAN lại với nhau, đồng thời ngăn không cho các packet thuộc loại broadcast đi qua nó và giúp cho việc định tuyến cho các packet</C>
+		<D>Định tuyến cho các packet, chia nhỏ các Collision Domain nhưng không chia nhỏ các Broadcast Domain</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Tầng Network chịu trách nhiệm: </noidung><s>1</s>
+		<A>Dựa trên địa chỉ IP đích có trong packet mà quyết định chọn đường thích hợp cho packet</A>
+		<B>Quyết định đích đến của packet</B>
+		<C>Phát hiện packet bị mất và cho gửi lại packet mất</C>
+		<D>Chia nhỏ packet thành các frame</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Các thiết bi mạng nào sau đây có khả năng định tuyến cho một gói tin (chuyển gói tin sang một mạng kế khác nằm trên đường đến mạng đích) bằng cách dựa vào địa chỉ IP của máy đích có trong gói tin và thông tin hiện thời về tình trạng mạng được thể hiện trong bảng định tuyến có trong thiết bị: </noidung><s>0</s>
+		<A>Bridge</A>
+		<B>Router</B>
+		<C>Switch</C>
+		<D>Cả A, B và C</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Địa chỉ nào thuộc về lớp A: </noidung><s>1</s>
+		<A>10001100 11001100 11111111 01011010</A>
+		<B>11001111 11110000 10101010 01010101</B>
+		<C>01111010 10100101 11000011 11100011</C>
+		<D>11011010 10101010 01010101 11110011</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Nếu lấy một địa chỉ lớp B để chia subnet với netmask là 255.255.240.0 thì có bao nhiêu subnets có thể sử dụng được: </noidung><s>1</s>
+		<A>2</A>
+		<B>6</B>
+		<C>30</C>
+		<D>16</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Địa chỉ nào sau đây thuộc lớp A: </noidung><s>1</s>
+		<A>172.29.14.10</A>
+		<B>10.1.1.1</B>
+		<C>140.8.8.8</C>
+		<D>203.5.6.7</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Máy tính đóng vai tròn Router có bao nhiêu địa chỉ IP: </noidung><s>1</s>
+		<A>1</A>
+		<B>2</B>
+		<C>3</C>
+		<D>4</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Chức năng chính của router là: </noidung><s>0</s>
+		<A>Kết nối network với network</A>
+		<B>Chia nhỏ broadcast domain</B>
+		<C>A và B đề đúng</C>
+		<D>A và B đều sai</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong các địa chỉ sau, chọn địa chỉ không nằm cùng mạng với các địa chỉ còn lại: </noidung><s>1</s>
+		<A>203.29.100.100/255.255.255.240</A>
+		<B>203.29.100.110/255.255.255.240</B>
+		<C>203.29.103.113/255.255.255.240</C>
+		<D>203.29.100.98/255.255.255.240</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Địa chỉ nào sau đây là địa chỉ broadcast của mạng lớp B: </noidung><s>0</s>
+		<A>149.255.255.255</A>
+		<B>149.6.255.255</B>
+		<C>149.6.7.255</C>
+		<D>Tất cả đều đúng</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Địa chỉ IP 172.200.25.55/255.255.0.0</noidung><s>1</s>
+		<A>Thuộc lớp A</A>
+		<B>Thuộc lớp C</B>
+		<C>Là địa chỉ riêng</C>
+		<D>Là địa chỉ broadcast</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Thuật toán chạy trên gateway router là: </noidung><s>0</s>
+		<A>Inter-routing</A>
+		<B>Intra-routing</B>
+		<C>Cả hai đều sai</C>
+		<D>Cả hai đều đúng</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Chức năng chính của Router: </noidung><s>0</s>
+		<A>Đẩy các gói tin từ kết nối vào đến kết nối ra</A>
+		<B>Thực hiện các giao thức/ giải thuật định tuyến</B>
+		<C>Cả hai chức năng A và B</C>
+		<D>Không thực hiện chức năng nào ở trên</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Kết nối mạng có giá trị MTU là 1500 bytes. Kích thước gói dữ liệu lớn nhất có thể truyền qua kết nối này là: </noidung><s>1</s>
+		<A>1400 bytes</A>
+		<B>1480 bytes</B>
+		<C>1500 bytes</C>
+		<D>1600 bytes</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Có địa chỉ 200.23.16.0/23, giá trị 23 là: </noidung><s>1</s>
+		<A>Số bit trong phần subnet của địa chỉ</A>
+		<B>Số bit trong phần HostID của địa chỉ</B>
+		<C>Số bit xác định lớp A, B, C, D, E</C>
+		<D>Không là giá trị nào trong các trường hợp trên</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>IPv6 có không gian địa chỉ là: </noidung><s>1</s>
+		<A>32 bit</A>
+		<B>64 bit</B>
+		<C>128 bit</C>
+		<D>256 bit</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Gói tin IPv6 có bao nhiêu byte trong phần tiêu đề: </noidung><s>1</s>
+		<A>20 byte</A>
+		<B>30 byte</B>
+		<C>40 byte</C>
+		<D>50 byte</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Đâu là biểu diễn của một địa chỉ IPv6: </noidung><s>1</s>
+		<A>1080:0000:0000:0000:0008:0800:200C:417A</A>
+		<B>1080:0000:0000:0008:0800:200C:417A</B>
+		<C>1080:0000:0000:0000:0000:0008:0800:200C:417A</C>
+		<D>1080:0008:0800:200C:417A</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Đâu là biểu diễ dạng rút gọn của địa chỉ IPv6: 2001:0F68:0000:0000:0000:0000:1986:69AF</noidung><s>0</s>
+		<A>2001:F68:0:0:0:0:1986:69AF</A>
+		<B>2001:F68::1986:69AF</B>
+		<C>Cả hai biểu diễn trên đều đúng</C>
+		<D>Cả hai biểu diễn trên đều sai</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Frame là dữ liệu ở tầng: </noidung><s>1</s>
+		<A>Physical</A>
+		<B>Network</B>
+		<C>Data Link</C>
+		<D>Transport</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Kiểm soát lỗi và kiểm soát luồng dữ liệu được thực hiện bởi: </noidung><s>1</s>
+		<A>Tầng mạng</A>
+		<B>Tầng liên kết dữ liệu</B>
+		<C>Tầng vật lý</C>
+		<D>Tầng phiên</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức nào dùng để chuyển đổi từ địa chỉ IP sang địa chỉ MAC: </noidung><s>1</s>
+		<A>ARP</A>
+		<B>RARP</B>
+		<C>ICMP</C>
+		<D>TCP</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Tiến trình cho phép host tự động lấy địa chỉ IP cho nó từ server khi kết nối vào mạng: </noidung><s>1</s>
+		<A>Host broadcasts thông điệp "DHCP discover" -&#62; DCHP server đáp ứng với "DHCP offer" -&#62; host gửi thông điệp "DHCP request" -&#62; DHCP server gửi "DHCP ack"</A>
+		<B>Host gửi thông điệp "DHCP request" -> DHCP server gửi "DHCP ack" -> host broadcasts thông điệp "DHCP discover" -> HDCP server đáp ứng với "DHCP offer"</B>
+		<C>Host broadcasts thông điệp "DHCP discover" -> DHCP server gửi "DHCP ack" -> host gửi thông điệp "DHCP request" -> DHCP server đáp ứng với "DHCP offer"</C>
+		<D>Host gửi thông điệp "DHCP request" -> DHCP server đáp ứng với "DHCP offer" -> host broadcasts thông điệp "DHCP discover" -> DHCP server gửi "DHCP ack"</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>CMSA/CD là phương pháp truy nhập ngẫu nhiên sử dụng cho mạng có cấu trúc hình: </noidung><s>1</s>
+		<A>Sao (STAR)</A>
+		<B>BUS</B>
+		<C>Vòng (RING)</C>
+		<D>Lai ghép BUS-STAR</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>CSMA/CD là viết tắt của: </noidung><s>1</s>
+		<A>Collision Sense Multiple Access/ Collision Detection</A>
+		<B>Carrier Sense Multiple Access/ Collision Deterence</B>
+		<C>Carrier Sense Multiple Access/ Collision Detection</C>
+		<D>Collision Sense Multiple Access/Carrier Detection</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Ba byte đầu tiên của địa chỉ MAC cho biết thông tin gì: </noidung><s>0</s>
+		<A>Tên nhà sản xuất card mạng (NIC)</A>
+		<B>Vùng địa lý của card mạng</B>
+		<C>Số hiệu phiên bản của card mạng</C>
+		<D>Tất cả các câu trên đều sai</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Trang thiết bị mạng nào dùng để nối các mạng và kiểm soát được broadcast: </noidung><s>1</s>
+		<A>Ethernet switch</A>
+		<B>Bridge</B>
+		<C>Router</C>
+		<D>Hub</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Địa chỉ nào dưới đây là địa chỉ tầng 2 (địa chỉ MAC): </noidung><s>1</s>
+		<A>192.201.63.251</A>
+		<B>0000.1234.FEG</B>
+		<C>19-22-01-63-25</C>
+		<D>00-00-12-34-FE-AA</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>CSMA/CD là kiểu truy cập nào trong các kiểu sau đây: </noidung><s>0</s>
+		<A>Phân chia kênh truyền (chanel partitioning)</A>
+		<B>Truy cập ngẫu nhiên (random access)</B>
+		<C>Lần lượt (taking turn)</C>
+		<D>Tất cả đều sai</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Phương pháp truy cập nào dưới đây lắng nghe lưu thông mạng trên đường truyền trước khi truyền dữ liệu: </noidung><s>1</s>
+		<A>CSMA/CD</A>
+		<B>CSMA/CA</B>
+		<C>Token TING</C>
+		<D>Token BUS</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Chuẩn nào dưới đây đặc tả về chuẩn kiến trúc mạng cục bộ cho Ethernet, bao gồm các chuẩn tầng vật lý và tầng con MAC: </noidung><s>1</s>
+		<A>IEEE802.2</A>
+		<B>IEEE802.3</B>
+		<C>Token Bus</C>
+		<D>Token Ring</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Địa chỉ vật lý (MAC Address) nào sau đây là không đúng: </noidung><s>1</s>
+		<A>00-2A-43-16-23-A8</A>
+		<B>00-2A-43-3E-33-A0</B>
+		<C>00-4G-43-26-36-0D</C>
+		<D>00-C0-9F-C3-27-F6</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Thiết bị Hub cho phép: </noidung><s>1</s>
+		<A>Kéo dài 1 nhánh LAN thông qua việc khuếch đại tín hiệu truyền đến nó</A>
+		<B>Ngăng không cho các packet thuộc loại Broadcast đi qua nó</B>
+		<C>Giúp định tuyến cho các packet</C>
+		<D>Kết nối nhiều máy tính lại với nhau để tạo thành một nhánh LAN (segment)</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Máy tinh A và Z có địa chỉ trên 2 SUBNET khác nhau. Điều gì xảy ra khi máy tính A gửi broadcasts (ARP request) đi tìm địa chỉ MAC của máy tính Z: </noidung><s>1</s>
+		<A>Không có trả lời (no response)</A>
+		<B>Router sẽ trả lời với địa chỉ MAC của Z</B>
+		<C>Router sẽ trả lời với địa chỉ MAC của mình</C>
+		<D>Router sẽ gửi tiếp yêu cầu (ARP request) tới subnet của Z và lúc đó Z có thể trả lời A</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Điều gì xảy ra khi máy tính A gửi broadcasts (ARP request) đi tìm địa chỉ MAC của máy tính B trên cùng một mạng: </noidung><s>1</s>
+		<A>Máy chủ DNS sẽ trả lời A với địa chỉ MAC của B</A>
+		<B>Tất cả các máy tính trong mạng đều nhận được yêu cầu (ARP request) và tất cả sẽ trả lời A với địa chỉ MAC của B</B>
+		<C>Tất cả các máy tính trong mạng đều nhận được yêu cầu (ARP request) nhưng chỉ B mới trả lời A với địa chỉ MAC của mình</C>
+		<D>Các Router gần nhất nhận được yêu cầu (ARP request) sẽ trả lời A với địa chỉ MAC của B hoặc sẽ gửi tiếp yêu cầu này tới các router khác (forwards the request to another router)</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong mô hình OSI, việc xác định địa chỉ vậy lý từ địa chỉ logic là trách nhiệm của: </noidung><s>1</s>
+		<A>Tầng ứng dụng</A>
+		<B>Tầng liên kết dữ liệu</B>
+		<C>Tầng mạng</C>
+		<D>Tầng giao vận</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Dịch vụ nào sau đây mà tầng liên kết dữ liệu phải cung cấp: </noidung><s>0</s>
+		<A>Đặt gói tin tầng mạng vào các Frame</A>
+		<B>Mã hóa các bit thành các tín hiệu vật lý</B>
+		<C>Tạo đường truyền tin cậy</C>
+		<D>Câu A và B đều đúng</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Giả sử người ta sẽ bổ súng 1 bit kiểm tra vào cuối của dòng dữ liệu gửi đi sao cho tổng số bit 1 trong chuỗi mới là một số lẻ. Bên nhận nhận được chuỗi 1000101010001 thì: </noidung><s>1</s>
+		<A>Chuỗi nhận được bị lỗi</A>
+		<B>Chuỗi nhận được đúng hoàn toàn</B>
+		<C>Có thể phát hiện và sử được lỗi trong chuỗi bit này</C>
+		<D>Không xác định lỗi trong chuỗi nhận được</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Switch là thiết bị hoạt động ở tầng: </noidung><s>1</s>
+		<A>Vật lý</A>
+		<B>Liên kết dữ liệu</B>
+		<C>Mạng</C>
+		<D>Vận chuyển</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Công nghệ Ethernet sử dụng phương pháp truy nhập đường truyền nào sau đây: </noidung><s>1</s>
+		<A>CSMA</A>
+		<B>ALOHA</B>
+		<C>CSMA/CD</C>
+		<D>TDMA</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Phát biểu nào sau đây là đúng nhất cho Switch: </noidung><s>1</s>
+		<A>Sử dụng địa chỉ vật lý và hoạt động tại tầng Physical của mô hình OSI</A>
+		<B>Sử dụng địa chỉ vậy lý và hoạt động tại tầng Network của mô hình OSI</B>
+		<C>Sử dụng địa chỉ vậy lý và hoạt động tại tầng DataLink của mô hình OSI</C>
+		<D>Sử dụng địa chỉ IP và hoạt động tại tầng Network của mô hình OSI</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Điều gì sẽ xảy ra với dữ liệu khi có xung đột (collision) trong quá trình truyền dữ liệu: </noidung><s>0</s>
+		<A>Hub/Switch sẽ gửi lại dữ liệu</A>
+		<B>Dữ liệu sẽ bị phá hỏng</B>
+		<C>Dữ liệu sẽ được khôi phục lại tại máy nhận</C>
+		<D>Cả A và C đúng</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Công nghệ LAN nào sử dụng kỹ thuật CSMA/CD: </noidung><s>0</s>
+		<A>Token Ring</A>
+		<B>Ethernet</B>
+		<C>FDDI</C>
+		<D>Tất cả các câu trên</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Trang thiết bị mạng nào sau đây làm giảm bớt sự xung đột (collision): </noidung><s>1</s>
+		<A>Hub</A>
+		<B>NIC</B>
+		<C>Switch</C>
+		<D>Transceiver</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Để hạn chế sự đụng độ (collision) của các gói tin trên mạng, người ta chia mạng thành các mạng nhỏ hơn và kết nối chúng lại bằng các thiết bị: </noidung><s>1</s>
+		<A>Repeater</A>
+		<B>Hub</B>
+		<C>Switch</C>
+		<D>Card mạng (NIC)</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Chuỗi số &quot;00-08-ac-41-5d-9f&quot; có thể là: </noidung><s>0</s>
+		<A>Địa chỉ IP</A>
+		<B>Địa chỉ port</B>
+		<C>Địa chỉ MAC</C>
+		<D>Tất cả đều sai</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Địa chỉ nào được Switch sử dụng khi quyết định gửi data sang cổng (port) nào: </noidung><s>1</s>
+		<A>Source MAC address</A>
+		<B>Destination MAC address</B>
+		<C>Network address</C>
+		<D>Subnetwork address</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Dịch vụ nào sau đây mà tầng liên kết dữ liệu phải cung cấp: </noidung><s>1</s>
+		<A>Đặt gói tin tầng mạng vào các Frame</A>
+		<B>Định tuyến</B>
+		<C>Mã hóa các bit thành các tín hiệu vật lý</C>
+		<D>Tạo đường truyền tin cậy</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Giả sử có một Hệ thống 2 LAN segment được kết nối với nhau qua một router là máy tính. Máy tính đóng vai trò Router có bao nhiêu card mạng: </noidung><s>1</s>
+		<A>1</A>
+		<B>2</B>
+		<C>3</C>
+		<D>4</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Chọn định nghĩa đúng về địa chỉ MAC: </noidung><s>0</s>
+		<A>Được ghi sẵn trên card mạng (NIC)</A>
+		<B>Do người quản trị mạng khai báo</B>
+		<C>Câu A và B đúng</C>
+		<D>Tất cả đều đúng</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Công nghệ nào sau đây có độ dài của khung dữ liệu cố định: </noidung><s>1</s>
+		<A>X25</A>
+		<B>Frame Relay</B>
+		<C>ISDN</C>
+		<D>ATM</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Độ dài của khung dữ liệu của ATM là: </noidung><s>1</s>
+		<A>53 byte</A>
+		<B>128 byte</B>
+		<C>512 byte</C>
+		<D>1500 byte</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>ATM có tốc độ trao đổi thông tin từ: </noidung><s>1</s>
+		<A>2 Mbps đến 8 Mbps</A>
+		<B>155 Mbps đến 1 Gbps</B>
+		<C>100 Mbps đến 155 Mbps</C>
+		<D>155 Mbps đến 622 Mbps</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Chuẩn IEEE 802 chia tầng Liên kết dữ liệu của mô hình OSI thành 2 tầng con: </noidung><s>1</s>
+		<A>LLC và MAC</A>
+		<B>TCP và UDP</B>
+		<C>TCP và IP</C>
+		<D>ARP và RARP</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Fast Ethernet còn được gọi là: </noidung><s>1</s>
+		<A>10BaseT</A>
+		<B>1000BaseFX</B>
+		<C>10BaseFX</C>
+		<D>100BaseT</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Tốc độ truyền dữ liệu của topology 100Base-FX là: </noidung><s>1</s>
+		<A>10 Mbps</A>
+		<B>100 Mbps</B>
+		<C>1000 Mbps</C>
+		<D>10 Gbps</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Kỹ thuật mạng LAN Fast Ethernet có tốc độ truyền dữ liệu cơ bản là: </noidung><s>1</s>
+		<A>10 Mbps</A>
+		<B>100 Mbps</B>
+		<C>1.000 Mbps</C>
+		<D>10.000 Mbps</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Chuẩn WLAN 802.11b/g có tốc độ truyền dữ liệu tương ứng là: </noidung><s>1</s>
+		<A>11/100 Mbps</A>
+		<B>11/54 Mbps</B>
+		<C>11/108 Mbps</C>
+		<D>2/54 Mbps</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Tần số hoạt động của chuẩn WLAN 802.11g là: </noidung><s>1</s>
+		<A>5 Ghz</A>
+		<B>2,3 Ghz</B>
+		<C>2,4 Ghz</C>
+		<D>2,5 Ghz</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Đường truyền tín hiệu tương tự, đường truyền âm thoại chuẩn được sử dụng tron các cuộc giao tiếp qua điện thoại gọi là đường truyền: </noidung><s>1</s>
+		<A>Quay số</A>
+		<B>Tín hiệu số trực tiếp</B>
+		<C>Any-to-Any</C>
+		<D>Chuyên dụng (thuê bao)</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Chức năng của Proxy là gi: </noidung><s>0</s>
+		<A>Là máy đại diện cho một nhóm máy đi thực hiện một dịch vụ máy khách (client service) nào đó</A>
+		<B>Là một thiết bị thống kê lưu lượng mạng</B>
+		<C>Tất cả đều đúng</C>
+		<D>Tất cả đều sai</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Trình điều khiển (driver) là: </noidung><s>1</s>
+		<A>Phần cứng</A>
+		<B>Phần mềm</B>
+		<C>Thiết bị ngoại vi</C>
+		<D>Card</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức nào trong các giao thức sau dùng trong mô hình mạng WAN: </noidung><s>0</s>
+		<A>TCP/IP</A>
+		<B>NetBEUI</B>
+		<C>DLC</C>
+		<D>Tất cả các phương án trên</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Giao thức nào trong các giao thức sau dùng trong mô hình mạng LAN: </noidung><s>0</s>
+		<A>TCP/IP</A>
+		<B>IPX/SPX</B>
+		<C>NetBEUI</C>
+		<D>Tất cả</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Bảo vệ các tài nguyên thông tin trên mạng là cần thiết và cấp bách vì: </noidung><s>1</s>
+		<A>Các máy tính được nối thành mạng</A>
+		<B>Nhiều người sử dụng và phân tán về mặt vật lý</B>
+		<C>Bảo vệ các máy chủ</C>
+		<D>Chống nghe trộm thông tin</D>
+		<Ans>O</Ans>
+	</entry>
+	<entry>
+		<noidung>An toàn mạng theo nghĩa là bảo vệ và đảm bảo an toàn: </noidung><s>1</s>
+		<A>Phần mềm trên mạng</A>
+		<B>Tài nguyên trên mạng</B>
+		<C>Phần cứng của mạng</C>
+		<D>Kho dữ liệu</D>
+		<Ans>O</Ans>
+	</entry>
+	<entry>
+		<noidung>Vi phạm an toàn thông tin hiểu theo nghĩa: </noidung><s>1</s>
+		<A>Can thiệp vào các hoạt động của mạng</A>
+		<B>Can thiệp vào các hoạt động của người sử dụng</B>
+		<C>Nội dung thông tin và luồng thông tin thay đổi</C>
+		<D>Từ chối dịch vụ</D>
+		<Ans>O</Ans>
+	</entry>
+	<entry>
+		<noidung>Mật mã là quá trình chuyển đổi thông tin từ bán rõ ràng sang: </noidung><s>1</s>
+		<A>Dạng mã hóa</A>
+		<B>Dạng từ chối dịch vụ</B>
+		<C>Phủ nhận</C>
+		<D>Không được quyền truy xuất</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Firewall là một hệ thống kiểm soát, ngăn chặn: </noidung><s>1</s>
+		<A>Đột nhập bất hợp pháp từ bên ngoài vào hệ thống</A>
+		<B>Sử dụng tài nguyên mạng</B>
+		<C>Quyền truy xuất thông tin</C>
+		<D>Gián điệp</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Một bộ lọc packet (cài đặt trên firewall) có thể: </noidung><s>0</s>
+		<A>Chỉ các máy tính phía trong mới có khả năng khỏi tạo các kết nối TCP ra các máy tính ở bên ngoài mạng</A>
+		<B>Cho phép FTP client ở bên trong có thể truy cập tới FTP server bên ngoài mà máy tính bên trong không bị hack</B>
+		<C>Cho phép FTP client ở bên ngoài có thể truy cập tới FTP server bên trong mà máy tính bên trong không bị hack</C>
+		<D>Tất cả đều đúng</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Chức thực là: </noidung><s>1</s>
+		<A>Người gửi mã hóa thông điệp, người nhận giải mã thông điệp</A>
+		<B>Người gửi và người nhận xác định là nhận ra nhau</B>
+		<C>Người gửi và người nhận muốn đảm bảo thông điệp không bị thay đổi</C>
+		<D>Các dịch vụ phải có khả năng truy nhập và sẵn sàng với người dùng</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Sự toàn vẹn thông điệp là: </noidung><s>1</s>
+		<A>Người gửi mã hóa thông điệp, người nhận giải mã thông điệp</A>
+		<B>Người gửi và người nhận xác định là nhận ra nhau</B>
+		<C>Người gửi và người nhận muốn đảm bảo thông điệp không bị thay đổi</C>
+		<D>Các dịch vụ phải có khả năng truy nhập và sẵn sàng với người dùng</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>DES (Data Encryption Standard) được sử dụng trong: </noidung><s>0</s>
+		<A>Mã hóa khóa đối xứng</A>
+		<B>Mã hóa khóa công khai</B>
+		<C>Cả mã hóa khóa đối xứng và mã hóa khóa công khai</C>
+		<D>Tất cả các phương án trên đều sai</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Giải thuật RSA được sử dụng trong: </noidung><s>0</s>
+		<A>Mã hóa khóa đối xứng</A>
+		<B>Mã hóa khóa công khai</B>
+		<C>Cả mã hóa khóa đối xứng và mã hóa khóa công khai</C>
+		<D>Tất cả các phương án trên đều sai</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Sử dụng lệnh IPconfig khi muốn: </noidung><s>1</s>
+		<A>Xác định đường đi của các gói tin từ nguồn đến đích</A>
+		<B>Biết trạng thái cấu hình TCP/IP của máy tính (cấu hình về các card mạng)</B>
+		<C>Phân tích gói tin nhằm giải quyết một vấn đề của mạng</C>
+		<D>Kiểm tra lỗi mạng</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Lệnh Tracert dùng đề: </noidung><s>1</s>
+		<A>Xác định đường đi của các gói tin từ nguồn đến đích (qua các nút mạng nào)</A>
+		<B>Biết trạng thái cấu hình TCP/IP của máy tính (cấu hình về các card mạng)</B>
+		<C>Phân tích gói tin nhằm giải quyết một vấn đề của mạng</C>
+		<D>Kiểm tra lỗi mạng</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Lệnh Netstat dùng để: </noidung><s>1</s>
+		<A>Biết trạng thái cấu hình TCP/IP của máy tính (cấu hình về các card mạng)</A>
+		<B>Phân tích gói tin nhằm giải quyết một vấn đề của mạng</B>
+		<C>Xác định đường đi của các gói tin từ nguồn đến đích</C>
+		<D>Liệt kê tất cả các kết nối vào ra máy tính</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong cú pháp lệnh telnet ip/host port bao gồm các tham số: </noidung><s>1</s>
+		<A>ip là địa chỉ IP của các thiết bị nguồn, host là tên thiết bị đầu cuối, port là cổng giao tiếp với thiết bị đầu cuối</A>
+		<B>ip là địa chỉ IP của thiết bị đầu cuối, host là tên thiết bị đầu cuối, port là cổng để giao tiếp với thiết bị đầu cuối</B>
+		<C>ip là địa chỉ IP của thiết bị nguồn, host là tên thiết bị nguồn, port là cổng nguồn</C>
+		<D>ip là địa chỉ IP của thiết bị nguồn, host là tên thiết bị đầu cuối, port là cổng nguồn</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Wireshark là một công cụ để: </noidung><s>1</s>
+		<A>Cho biết trạng thái cấu hình mạng</A>
+		<B>Xác định đường đi của các gói tin từ nguồn đến đích</B>
+		<C>Phân tích gói tin nhằm giải quyết một vấn đề cụ thể của mạng</C>
+		<D>Truy nhập từ xa</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Lện nào sẽ hiển thị kết quả dưới đây:
+Reply from 74.125.128.102: byte=32 time=50ms TTL=45
+Packets: Sent = 4, Received = 4, Lost = 0 &lt;0 % lost&gt;
+Approximate round trip times in milli-seconds:
+Minimum = 50ms, Maximum = 56ms, Average = 52ms</noidung><s>1</s>
+		<A>Ping</A>
+		<B>Tracert</B>
+		<C>Telnet</C>
+		<D>Ipconfig</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Lện nào sẽ hiển thị kết quả dưới đây:
+Proto     Local Address     Foreign Address     State
+TCP        0.0.0.0:7               nam-PC:0               LISTENING</noidung><s>1</s>
+		<A>Ping</A>
+		<B>Tracert</B>
+		<C>Netstat</C>
+		<D>Ipconfig</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Công cụ nào sẽ hiển thị các thông tin như dưới đây: ...</noidung><s>1</s>
+		<A>Ping</A>
+		<B>Tracert</B>
+		<C>Netstat</C>
+		<D>Wireshark</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Lệnh nào sẽ hiển thị kết quả dưới đây: 
+1   &lt;1 ms   &lt;1 ms   &lt;1 ms   routerA [172.16.9.1]</noidung><s>1</s>
+		<A>Ping</A>
+		<B>Ping -a</B>
+		<C>Tracert</C>
+		<D>Netstat</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Lện nào sau đây cho biết địa chỉ IP của máy tính: </noidung><s>1</s>
+		<A>IP</A>
+		<B>IPCONFIG</B>
+		<C>TCP_IP</C>
+		<D>FTP</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Lệnh PING dùng để: </noidung><s>1</s>
+		<A>Kiểm tran các máy tính có đĩa cúng hay không</A>
+		<B>Kiểm tra các máy tính trong mạng có liên thông không</B>
+		<C>Kiểm tra các máy tính có hoạt động tốt hay không</C>
+		<D>Kiểm tra các may tính có truy cập vào Internet không</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Lệnh nào dưới đây được dùng để xác định đường truyền (trong hệ điều hành Windows):</noidung><s>1</s>
+		<A>Nslookup</A>
+		<B>ipconfig</B>
+		<C>Route</C>
+		<D>Tracert</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Tiện ích TCP/IP nào dùng để kiểm tra sự kết nối mạng: </noidung><s>1</s>
+		<A>Route</A>
+		<B>ARP</B>
+		<C>Ping</C>
+		<D>Netstat</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Những khẳng định nào sau đây là đúng khi nói về các mô hình kết nối ADSL: </noidung><s>0</s>
+		<A>Mô hình PPPoA (Point to Point over ATM)</A>
+		<B>Mô hình PPPoE (Point to Point over Ethernet) RFC 2516</B>
+		<C>Mô hình IP over ATM (RFC 1483R)</C>
+		<D>Tất cả đều đúng</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Công nghệ ADSL là công nghệ đường dây thuê bao số truy nhập: </noidung><s>1</s>
+		<A>Không đối xứng</A>
+		<B>Ngẫu nhiên</B>
+		<C>Tuần tự</C>
+		<D>Đối xứng</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Khi quên mật khẩu của ADSL Router, làm cách nào để khôi phục mật khẩu mặc định: </noidung><s>1</s>
+		<A>Tra cứu trong cuốn hướng dẫn sử dụng của nhà cung cấp</A>
+		<B>Cấp điện cho ADSL Router và ấn giữ nút Reset trong một khoảng thời gian nhất định</B>
+		<C>Dùng software để dò Username và Password</C>
+		<D>Không thể khôi phục mật khẩu mặc định</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Thực hiện cấu hình ADSL Router để kết nối Internet, những thông số cơ bản cần thiết lập là: </noidung><s>0</s>
+		<A>VCI/VPI, LAN IP Address, Tài khoản kết nối đến nhà cung cấp dịch vụ (user, password)</A>
+		<B>DHCP Service</B>
+		<C>Câu a và b đúng</C>
+		<D>Tất cả các câu trên đều sai</D>
+		<Ans>C</Ans>
+	</entry>
+	<entry>
+		<noidung>Trang thiết bị mạng trung tâm dùng để kết nối các máy tính trong mạng hình sao (STAR): </noidung><s>1</s>
+		<A>Switch/Hub</A>
+		<B>Router</B>
+		<C>Repeater</C>
+		<D>NIC</D>
+		<Ans>A</Ans>
+	</entry>
+	<entry>
+		<noidung>Chương trình Traceroute sử dụng các giao thức nào: </noidung><s>1</s>
+		<A>UDP</A>
+		<B>UDP và ICMP</B>
+		<C>TCP và ICMP</C>
+		<D>IGMP</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Thiết bị Bridge cho phép: </noidung><s>0</s>
+		<A>Giúp định tuyến cho các packet</A>
+		<B>kết nối 2 mạng LAN lại với nhau đồng thời đóng vai trò như một bộ lọc (filter): chỉ cho phép các packet, mà địa chỉ nằm ngoài nhánh LAN mà packet xuất phát, đi qua</B>
+		<C>Tằng cường tín hiệu điện để mở rộng đoạn mạng</C>
+		<D>Cả A, B, C đều đúng</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Moderm dùng để: </noidung><s>0</s>
+		<A>Giao tiếp với mạng</A>
+		<B>Truyền dữ liệu đi xa</B>
+		<C>Truyền dữ liệu trong mạn LAN</C>
+		<D>A và B đề đúng</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Bạn đang sử dụng FTP trong Command Promt, bạn muốn tạo một thư mục mạng tên &quot;Test&quot; trên máy cục bộ của bạn (bạn vẫn không thoát khỏi FTP). Bạn sẽ sử dụng lệnh gì: </noidung><s>1</s>
+		<A>#md test</A>
+		<B>!md test</B>
+		<C>Md Test</C>
+		<D>Mkdir test</D>
+		<Ans>B</Ans>
+	</entry>
+	<entry>
+		<noidung>Trong các cơ chế sau đây, cơ chế nào được sử dụng để cài đặt Web cache: </noidung><s>0</s>
+		<A>Kiểm chứng và Mã kiểm chứng 401 Authorization require</A>
+		<B>Trường tiêu đề "Last-Modified" và "If-Modified-Since"</B>
+		<C>Phương thức yêu cầu POST</C>
+		<D>A và B</D>
+		<Ans>D</Ans>
+	</entry>
+	<entry>
+		<noidung>Sợi cáp xoắn nối giữa card mạng với hub thì: </noidung><s>0</s>
+		<A>Bấm thứ tự 2 đầu cáp giống nhau</A>
+		<B>Đổi vị trí các sợi 1, 2 với sợi 3, 6</B>
+		<C>Một đầu bấm theo chuẩn TIA/EIA T568A, đầu kia theo chuẩn TIA/EIA T568-B</C>
+		<D>Tất cả đều sai</D>
+		<Ans>A</Ans>
+	</entry>
+</entries>
