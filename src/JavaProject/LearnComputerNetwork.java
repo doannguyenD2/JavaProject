@@ -36,6 +36,7 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
     private static ArrayList answerD;
     private static ArrayList result;
     private static int qcount;
+    private static int totalQuestion;
     private static int correct;
     private static int wrong;
     private static int checkCorrect = 0;
@@ -56,12 +57,15 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
         answerD = new ArrayList();
         result = new ArrayList();
         getDataFromXml();
-        questionLabel.setText("Câu 1: " + question.get(qcount).toString());
+        
+        totalQuestion = question.size();
+        questionLabel.setText("Câu 1" + "/" + totalQuestion + ": " + question.get(qcount).toString());
         aLabel.setText("A, " + answerA.get(qcount).toString());
         bLabel.setText("B, " + answerB.get(qcount).toString());
         cLabel.setText("C, " + answerC.get(qcount).toString());
         dLabel.setText("D, " + answerD.get(qcount).toString());
         scoreLabel.setText("Correct: " + correct + " - Wrong: " + wrong);
+        scoreLabel.setForeground(Color.red);
 //        System.out.println(result.get(0).toString());
     }
 
@@ -87,14 +91,14 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
         scoreLabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBounds(new java.awt.Rectangle(0, 0, 0, 0));
+        setPreferredSize(new java.awt.Dimension(1600, 768));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Ôn tập mạng máy tính");
 
         aBtn.setText("A");
-        aBtn.setMinimumSize(new java.awt.Dimension(75, 29));
-        aBtn.setPreferredSize(new java.awt.Dimension(75, 29));
         aBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 aBtnActionPerformed(evt);
@@ -132,6 +136,7 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
 
         dLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
+        scoreLabel.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
         scoreLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -145,12 +150,12 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(64, 64, 64)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(aBtn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(cBtn))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 434, Short.MAX_VALUE)
+                            .addComponent(aBtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(cBtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(744, 744, 744)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(bBtn)
-                            .addComponent(dBtn))
+                            .addComponent(bBtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(dBtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(60, 60, 60))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
@@ -162,13 +167,10 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
                             .addComponent(cLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap())
         );
-
-        layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {aBtn, bBtn, cBtn, dBtn});
-
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(30, 30, 30)
+                .addContainerGap()
                 .addComponent(jLabel1)
                 .addGap(18, 18, 18)
                 .addComponent(questionLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -180,20 +182,18 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
                 .addComponent(cLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(dLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(scoreLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(scoreLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(aBtn, javax.swing.GroupLayout.DEFAULT_SIZE, 55, Short.MAX_VALUE)
+                    .addComponent(bBtn, javax.swing.GroupLayout.DEFAULT_SIZE, 55, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(aBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(bBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(dBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(cBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(dBtn, javax.swing.GroupLayout.DEFAULT_SIZE, 55, Short.MAX_VALUE)
+                    .addComponent(cBtn, javax.swing.GroupLayout.DEFAULT_SIZE, 55, Short.MAX_VALUE))
+                .addGap(338, 338, 338))
         );
-
-        layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {aBtn, bBtn, cBtn, dBtn});
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -201,7 +201,7 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
     public void getNewQuestion(){
         ++qcount;
         int num = qcount+1;
-        questionLabel.setText("Câu " + num + ": " + question.get(qcount).toString());
+        questionLabel.setText("Câu " + num + "/" + totalQuestion +": " + question.get(qcount).toString());
         aLabel.setText("A, " + answerA.get(qcount).toString());
         bLabel.setText("B, " + answerB.get(qcount).toString());
         cLabel.setText("C, " + answerC.get(qcount).toString());
