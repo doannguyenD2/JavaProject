@@ -78,12 +78,11 @@ public class MainForm extends javax.swing.JFrame {
         base10Btn = new javax.swing.JLabel();
         base8Btn = new javax.swing.JLabel();
         base16Btn = new javax.swing.JLabel();
-        computerNetworkBtn = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         ktTongHop = new javax.swing.JButton();
         ktNhayBen = new javax.swing.JButton();
         ktSoHoc = new javax.swing.JButton();
-        ktHinhHocKG = new javax.swing.JButton();
+        computerNetworkBtn = new javax.swing.JButton();
 
         javax.swing.GroupLayout jFrame1Layout = new javax.swing.GroupLayout(jFrame1.getContentPane());
         jFrame1.getContentPane().setLayout(jFrame1Layout);
@@ -147,7 +146,7 @@ public class MainForm extends javax.swing.JFrame {
                     .addComponent(dTich, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(51, 51, 51))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                .addContainerGap(157, Short.MAX_VALUE)
+                .addContainerGap(185, Short.MAX_VALUE)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(tinh, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(banKinh, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -156,12 +155,12 @@ public class MainForm extends javax.swing.JFrame {
                 .addGroup(jPanel4Layout.createSequentialGroup()
                     .addGap(70, 70, 70)
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(230, Short.MAX_VALUE)))
+                    .addContainerGap(258, Short.MAX_VALUE)))
             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel4Layout.createSequentialGroup()
                     .addGap(24, 24, 24)
                     .addComponent(cVi, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(285, Short.MAX_VALUE)))
+                    .addContainerGap(313, Short.MAX_VALUE)))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -239,7 +238,7 @@ public class MainForm extends javax.swing.JFrame {
                                 .addComponent(canhHv)
                                 .addComponent(jLabel5))
                             .addComponent(chuVi, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 105, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 133, Short.MAX_VALUE)
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel6)
                             .addComponent(dienTich, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -330,7 +329,7 @@ public class MainForm extends javax.swing.JFrame {
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel10)
                             .addComponent(dTichHcn, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap(110, Short.MAX_VALUE))))
+                        .addContainerGap(138, Short.MAX_VALUE))))
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addGap(157, 157, 157)
                 .addComponent(tinhHcn)
@@ -444,7 +443,7 @@ public class MainForm extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(signComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(secondNumber, javax.swing.GroupLayout.DEFAULT_SIZE, 148, Short.MAX_VALUE)))
+                        .addComponent(secondNumber, javax.swing.GroupLayout.DEFAULT_SIZE, 188, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel11Layout.setVerticalGroup(
@@ -555,14 +554,6 @@ public class MainForm extends javax.swing.JFrame {
 
         jTabbedPane17.addTab("Chuyển đổi cơ số", jPanel12);
 
-        computerNetworkBtn.setText("Bắt đầu làm");
-        computerNetworkBtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                computerNetworkBtnActionPerformed(evt);
-            }
-        });
-        jTabbedPane17.addTab("Ôn tập Mạng Máy Tính", computerNetworkBtn);
-
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -618,15 +609,15 @@ public class MainForm extends javax.swing.JFrame {
             }
         });
 
-        ktHinhHocKG.setText("Hình học không gian ");
-        ktHinhHocKG.addComponentListener(new java.awt.event.ComponentAdapter() {
+        computerNetworkBtn.setText("Trắc nghiệm Mạng MT");
+        computerNetworkBtn.addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
-                ktHinhHocKGComponentShown(evt);
+                computerNetworkBtnComponentShown(evt);
             }
         });
-        ktHinhHocKG.addActionListener(new java.awt.event.ActionListener() {
+        computerNetworkBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ktHinhHocKGActionPerformed(evt);
+                computerNetworkBtnActionPerformed(evt);
             }
         });
 
@@ -637,21 +628,24 @@ public class MainForm extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addGap(42, 42, 42)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(ktSoHoc, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ktNhayBen, javax.swing.GroupLayout.DEFAULT_SIZE, 151, Short.MAX_VALUE))
+                    .addComponent(ktSoHoc, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ktNhayBen, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(ktHinhHocKG, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ktTongHop, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(computerNetworkBtn)
+                    .addComponent(ktTongHop, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(35, 35, 35))
         );
+
+        jPanel3Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {computerNetworkBtn, ktNhayBen, ktSoHoc, ktTongHop});
+
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addGap(41, 41, 41)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(ktNhayBen, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ktHinhHocKG, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(computerNetworkBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(ktSoHoc, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -659,7 +653,7 @@ public class MainForm extends javax.swing.JFrame {
                 .addContainerGap(42, Short.MAX_VALUE))
         );
 
-        jTabbedPane10.addTab("Kiểm tra", jPanel3);
+        jTabbedPane10.addTab("Ứng Dụng", jPanel3);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -688,9 +682,9 @@ public class MainForm extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_ktSoHocComponentShown
 
-    private void ktHinhHocKGComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_ktHinhHocKGComponentShown
+    private void computerNetworkBtnComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_computerNetworkBtnComponentShown
         // TODO add your handling code here:
-    }//GEN-LAST:event_ktHinhHocKGComponentShown
+    }//GEN-LAST:event_computerNetworkBtnComponentShown
 
     private void ktNhayBenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktNhayBenActionPerformed
         if(evt.getSource()== ktNhayBen ) {  
@@ -756,68 +750,6 @@ public class MainForm extends javax.swing.JFrame {
         base16TextField.setText("");
     }
     
-    private void base2TextFieldKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_base2TextFieldKeyReleased
-        if(base2TextField.getText().equals("")){
-            setTextFieldNull();
-        }
-        else{
-            processTextFieldConvert(base2TextField,2);
-        }
-    }//GEN-LAST:event_base2TextFieldKeyReleased
-
-    private void base10TextFieldKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_base10TextFieldKeyReleased
-        if(base10TextField.getText().equals("")){
-            setTextFieldNull();
-        }
-        else{
-            processTextFieldConvert(base10TextField,10);
-        }
-        
-    }//GEN-LAST:event_base10TextFieldKeyReleased
-
-    private void base8TextFieldKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_base8TextFieldKeyReleased
-        if(base8TextField.getText().equals("")){
-            setTextFieldNull();
-        }
-        else{
-            processTextFieldConvert(base8TextField,8);
-        }
-        
-    }//GEN-LAST:event_base8TextFieldKeyReleased
-
-    private void base16TextFieldKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_base16TextFieldKeyReleased
-        if(base16TextField.getText().equals("")){
-            setTextFieldNull();
-        }
-        else{
-            processTextFieldConvert(base16TextField,16);
-        }
-    }//GEN-LAST:event_base16TextFieldKeyReleased
-
-    private void firstNumberFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_firstNumberFocusGained
-        if (firstNumber.getText().equals("Số thứ nhất")) {
-            firstNumber.setText("");
-        }
-    }//GEN-LAST:event_firstNumberFocusGained
-
-    private void firstNumberFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_firstNumberFocusLost
-        if (firstNumber.getText().isEmpty()) {
-            firstNumber.setText("Số thứ nhất");
-        }
-    }//GEN-LAST:event_firstNumberFocusLost
-
-    private void secondNumberFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_secondNumberFocusGained
-        if (secondNumber.getText().equals("Số thứ hai")) {
-            secondNumber.setText("");
-        }
-    }//GEN-LAST:event_secondNumberFocusGained
-
-    private void secondNumberFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_secondNumberFocusLost
-        if (secondNumber.getText().isEmpty()) {
-            secondNumber.setText("Số thứ hai");
-        }
-    }//GEN-LAST:event_secondNumberFocusLost
-
     public void calc(){
         try{
             BigInteger a = new BigInteger(firstNumber.getText());
@@ -848,34 +780,6 @@ public class MainForm extends javax.swing.JFrame {
         }
     }
     
-    private void firstNumberKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_firstNumberKeyReleased
-        calc();
-    }//GEN-LAST:event_firstNumberKeyReleased
-
-    private void secondNumberKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_secondNumberKeyReleased
-        calc();
-    }//GEN-LAST:event_secondNumberKeyReleased
-
-    private void signComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_signComboBoxActionPerformed
-        calc();
-    }//GEN-LAST:event_signComboBoxActionPerformed
-
-    private void ansTextAreaFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_ansTextAreaFocusGained
-        if (firstNumber.getText().equals("Kết quả")) {
-            firstNumber.setText("");
-        }
-    }//GEN-LAST:event_ansTextAreaFocusGained
-
-    private void ansTextAreaFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_ansTextAreaFocusLost
-        if (firstNumber.getText().isEmpty()) {
-            firstNumber.setText("Kết quả");
-        }
-    }//GEN-LAST:event_ansTextAreaFocusLost
-
-    private void base2TextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_base2TextFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_base2TextFieldActionPerformed
-
     private void canhHvActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_canhHvActionPerformed
         
     }//GEN-LAST:event_canhHvActionPerformed
@@ -889,10 +793,6 @@ public class MainForm extends javax.swing.JFrame {
          
          
     }//GEN-LAST:event_chuViActionPerformed
-
-    private void firstNumberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_firstNumberActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_firstNumberActionPerformed
 
     private void tinhHvActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tinhHvActionPerformed
        double a= Double.parseDouble(canhHv.getText());
@@ -947,16 +847,106 @@ public class MainForm extends javax.swing.JFrame {
          
     }//GEN-LAST:event_tinhHcnActionPerformed
 
-    private void ktHinhHocKGActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ktHinhHocKGActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ktHinhHocKGActionPerformed
-
     private void computerNetworkBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_computerNetworkBtnActionPerformed
         if(evt.getSource() == computerNetworkBtn){
             LearnComputerNetwork lcn = new LearnComputerNetwork();
             lcn.setVisible(true);
         }
     }//GEN-LAST:event_computerNetworkBtnActionPerformed
+
+    private void base16TextFieldKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_base16TextFieldKeyReleased
+        if(base16TextField.getText().equals("")){
+            setTextFieldNull();
+        }
+        else{
+            processTextFieldConvert(base16TextField,16);
+        }
+    }//GEN-LAST:event_base16TextFieldKeyReleased
+
+    private void base8TextFieldKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_base8TextFieldKeyReleased
+        if(base8TextField.getText().equals("")){
+            setTextFieldNull();
+        }
+        else{
+            processTextFieldConvert(base8TextField,8);
+        }
+
+    }//GEN-LAST:event_base8TextFieldKeyReleased
+
+    private void base10TextFieldKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_base10TextFieldKeyReleased
+        if(base10TextField.getText().equals("")){
+            setTextFieldNull();
+        }
+        else{
+            processTextFieldConvert(base10TextField,10);
+        }
+
+    }//GEN-LAST:event_base10TextFieldKeyReleased
+
+    private void base2TextFieldKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_base2TextFieldKeyReleased
+        if(base2TextField.getText().equals("")){
+            setTextFieldNull();
+        }
+        else{
+            processTextFieldConvert(base2TextField,2);
+        }
+    }//GEN-LAST:event_base2TextFieldKeyReleased
+
+    private void base2TextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_base2TextFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_base2TextFieldActionPerformed
+
+    private void signComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_signComboBoxActionPerformed
+        calc();
+    }//GEN-LAST:event_signComboBoxActionPerformed
+
+    private void ansTextAreaFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_ansTextAreaFocusLost
+        if (firstNumber.getText().isEmpty()) {
+            firstNumber.setText("Kết quả");
+        }
+    }//GEN-LAST:event_ansTextAreaFocusLost
+
+    private void ansTextAreaFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_ansTextAreaFocusGained
+        if (firstNumber.getText().equals("Kết quả")) {
+            firstNumber.setText("");
+        }
+    }//GEN-LAST:event_ansTextAreaFocusGained
+
+    private void secondNumberKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_secondNumberKeyReleased
+        calc();
+    }//GEN-LAST:event_secondNumberKeyReleased
+
+    private void secondNumberFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_secondNumberFocusLost
+        if (secondNumber.getText().isEmpty()) {
+            secondNumber.setText("Số thứ hai");
+        }
+    }//GEN-LAST:event_secondNumberFocusLost
+
+    private void secondNumberFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_secondNumberFocusGained
+        if (secondNumber.getText().equals("Số thứ hai")) {
+            secondNumber.setText("");
+        }
+    }//GEN-LAST:event_secondNumberFocusGained
+
+    private void firstNumberKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_firstNumberKeyReleased
+        calc();
+    }//GEN-LAST:event_firstNumberKeyReleased
+
+    private void firstNumberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_firstNumberActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_firstNumberActionPerformed
+
+    private void firstNumberFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_firstNumberFocusLost
+        if (firstNumber.getText().isEmpty()) {
+            firstNumber.setText("Số thứ nhất");
+        }
+    }//GEN-LAST:event_firstNumberFocusLost
+
+    private void firstNumberFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_firstNumberFocusGained
+        if (firstNumber.getText().equals("Số thứ nhất")) {
+            firstNumber.setText("");
+        }
+    }//GEN-LAST:event_firstNumberFocusGained
 
      
     /**
@@ -1041,7 +1031,6 @@ public class MainForm extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jTabbedPane10;
     private javax.swing.JTabbedPane jTabbedPane11;
     private javax.swing.JTabbedPane jTabbedPane17;
-    private javax.swing.JButton ktHinhHocKG;
     private javax.swing.JButton ktNhayBen;
     private javax.swing.JButton ktSoHoc;
     private javax.swing.JButton ktTongHop;

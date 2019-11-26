@@ -118,7 +118,7 @@
                               <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace pref="157" max="32767" attributes="0"/>
+                              <EmptySpace pref="185" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
                                   <Component id="tinh" min="-2" pref="70" max="-2" attributes="0"/>
                                   <Component id="banKinh" min="-2" pref="52" max="-2" attributes="0"/>
@@ -129,14 +129,14 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
                                   <Component id="jLabel2" min="-2" pref="112" max="-2" attributes="0"/>
-                                  <EmptySpace pref="230" max="32767" attributes="0"/>
+                                  <EmptySpace pref="258" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
                                   <Component id="cVi" min="-2" pref="103" max="-2" attributes="0"/>
-                                  <EmptySpace pref="285" max="32767" attributes="0"/>
+                                  <EmptySpace pref="313" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -240,7 +240,7 @@
                                           </Group>
                                           <Component id="chuVi" min="-2" pref="100" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace pref="105" max="32767" attributes="0"/>
+                                      <EmptySpace pref="133" max="32767" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                                           <Component id="dienTich" min="-2" pref="99" max="-2" attributes="0"/>
@@ -353,7 +353,7 @@
                                           <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
                                           <Component id="dTichHcn" min="-2" pref="60" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace pref="110" max="32767" attributes="0"/>
+                                      <EmptySpace pref="138" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -496,7 +496,7 @@
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Component id="signComboBox" min="-2" pref="87" max="-2" attributes="0"/>
                                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="secondNumber" pref="148" max="32767" attributes="0"/>
+                                      <Component id="secondNumber" pref="188" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
@@ -687,21 +687,6 @@
                     </Component>
                   </SubComponents>
                 </Container>
-                <Component class="javax.swing.JButton" name="computerNetworkBtn">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="B&#x1eaf;t &#x111;&#x1ea7;u l&#xe0;m"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="computerNetworkBtnActionPerformed"/>
-                  </Events>
-                  <Constraints>
-                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                      <JTabbedPaneConstraints tabName="&#xd4;n t&#x1ead;p M&#x1ea1;ng M&#xe1;y T&#xed;nh">
-                        <Property name="tabTitle" type="java.lang.String" value="&#xd4;n t&#x1ead;p M&#x1ea1;ng M&#xe1;y T&#xed;nh"/>
-                      </JTabbedPaneConstraints>
-                    </Constraint>
-                  </Constraints>
-                </Component>
               </SubComponents>
             </Container>
           </SubComponents>
@@ -714,8 +699,8 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Ki&#x1ec3;m tra">
-                <Property name="tabTitle" type="java.lang.String" value="Ki&#x1ec3;m tra"/>
+              <JTabbedPaneConstraints tabName="&#x1ee8;ng D&#x1ee5;ng">
+                <Property name="tabTitle" type="java.lang.String" value="&#x1ee8;ng D&#x1ee5;ng"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -726,13 +711,13 @@
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="ktSoHoc" max="32767" attributes="0"/>
-                          <Component id="ktNhayBen" pref="151" max="32767" attributes="0"/>
+                          <Component id="ktSoHoc" linkSize="5" min="-2" pref="189" max="-2" attributes="0"/>
+                          <Component id="ktNhayBen" linkSize="5" min="-2" pref="189" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="ktHinhHocKG" max="32767" attributes="0"/>
-                          <Component id="ktTongHop" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="computerNetworkBtn" linkSize="5" min="-2" max="-2" attributes="0"/>
+                          <Component id="ktTongHop" linkSize="5" min="-2" pref="183" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                   </Group>
@@ -744,7 +729,7 @@
                       <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="ktNhayBen" alignment="3" min="-2" pref="149" max="-2" attributes="0"/>
-                          <Component id="ktHinhHocKG" alignment="3" min="-2" pref="149" max="-2" attributes="0"/>
+                          <Component id="computerNetworkBtn" alignment="3" min="-2" pref="149" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -792,13 +777,13 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ktSoHocActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="ktHinhHocKG">
+            <Component class="javax.swing.JButton" name="computerNetworkBtn">
               <Properties>
-                <Property name="text" type="java.lang.String" value="H&#xec;nh h&#x1ecd;c kh&#xf4;ng gian "/>
+                <Property name="text" type="java.lang.String" value="Tr&#x1eaf;c nghi&#x1ec7;m M&#x1ea1;ng MT"/>
               </Properties>
               <Events>
-                <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="ktHinhHocKGComponentShown"/>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ktHinhHocKGActionPerformed"/>
+                <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="computerNetworkBtnComponentShown"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="computerNetworkBtnActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
