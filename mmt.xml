@@ -1314,14 +1314,6 @@
 		<Ans>A</Ans>
 	</entry>
 	<entry>
-		<noidung>Cho kết xuất lệnh route print trên máy X như sau: ...Máy X có địa chỉ IP: </noidung><s>1</s>
-		<A>0.0.0.0</A>
-		<B>172.16.9.12</B>
-		<C>127.0.0.1</C>
-		<D>172.16.9.0</D>
-		<Ans>O</Ans>
-	</entry>
-	<entry>
 		<noidung>Các địa chỉ IP cùng mạng con với địa chỉ 131.107.2.56/28: </noidung><s>1</s>
 		<A>Từ 131.107.2.48 đến 131.107.2.63</A>
 		<B>Từ 131.107.2.49 đến 131.107.2.63</B>
@@ -2096,30 +2088,6 @@
 		<C>NetBEUI</C>
 		<D>Tất cả</D>
 		<Ans>D</Ans>
-	</entry>
-	<entry>
-		<noidung>Bảo vệ các tài nguyên thông tin trên mạng là cần thiết và cấp bách vì: </noidung><s>1</s>
-		<A>Các máy tính được nối thành mạng</A>
-		<B>Nhiều người sử dụng và phân tán về mặt vật lý</B>
-		<C>Bảo vệ các máy chủ</C>
-		<D>Chống nghe trộm thông tin</D>
-		<Ans>O</Ans>
-	</entry>
-	<entry>
-		<noidung>An toàn mạng theo nghĩa là bảo vệ và đảm bảo an toàn: </noidung><s>1</s>
-		<A>Phần mềm trên mạng</A>
-		<B>Tài nguyên trên mạng</B>
-		<C>Phần cứng của mạng</C>
-		<D>Kho dữ liệu</D>
-		<Ans>O</Ans>
-	</entry>
-	<entry>
-		<noidung>Vi phạm an toàn thông tin hiểu theo nghĩa: </noidung><s>1</s>
-		<A>Can thiệp vào các hoạt động của mạng</A>
-		<B>Can thiệp vào các hoạt động của người sử dụng</B>
-		<C>Nội dung thông tin và luồng thông tin thay đổi</C>
-		<D>Từ chối dịch vụ</D>
-		<Ans>O</Ans>
 	</entry>
 	<entry>
 		<noidung>Mật mã là quá trình chuyển đổi thông tin từ bán rõ ràng sang: </noidung><s>1</s>
