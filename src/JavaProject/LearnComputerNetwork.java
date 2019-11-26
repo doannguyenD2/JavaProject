@@ -140,6 +140,7 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
         scoreLabel.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
         scoreLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
+        questionLabel.setEditable(false);
         questionLabel.setColumns(20);
         questionLabel.setLineWrap(true);
         questionLabel.setRows(5);
