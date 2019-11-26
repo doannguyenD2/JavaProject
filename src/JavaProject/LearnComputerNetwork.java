@@ -93,7 +93,7 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         questionLabel = new javax.swing.JTextArea();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setBounds(new java.awt.Rectangle(0, 0, 0, 0));
         setPreferredSize(new java.awt.Dimension(1600, 768));
 
@@ -282,10 +282,6 @@ public class LearnComputerNetwork extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_dBtnActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
-    
     public static void getDataFromXml(){
         try {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();

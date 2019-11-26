@@ -80,7 +80,7 @@ public class BrainTranning extends javax.swing.JFrame {
         ok = new javax.swing.JButton();
         status = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Source Sans Pro Semibold", 2, 24)); // NOI18N
         jLabel1.setText("Brain Tranning");
